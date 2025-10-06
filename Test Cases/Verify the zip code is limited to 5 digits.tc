@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the zip code is limited to 5 digits</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e5030c28-d37f-4eee-a5e4-28b73376909c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Has a claim been opened with responsible partys insurance</name>
+   <tag></tag>
+   <elementGuidId>934d1fda-fc5c-4101-ba20-6634fe1e2d4f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#was-claim-opened-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='was-claim-opened-label']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Has a claim been opened with responsible party's insurance? *&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>4ee6e0fa-f594-449b-baeb-40e13c053230</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-88235q</value>
+      <webElementGuid>d5943f23-9a29-41fa-be75-4e626b664e77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>was-claim-opened-label</value>
+      <webElementGuid>783884f4-800e-4c92-a393-84fc9f53d6f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Has a claim been opened with responsible party's insurance? *</value>
+      <webElementGuid>f6a12427-403a-4edf-96bf-7235ab2c7e7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;was-claim-opened-label&quot;)</value>
+      <webElementGuid>70d401e4-787c-4750-9b42-ca7683180318</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='was-claim-opened-label']</value>
+      <webElementGuid>730329b4-1110-4227-be10-c87d76ec9d13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div[2]/form/div/div[2]/div/div/div[6]/div/label</value>
+      <webElementGuid>2b4e8af6-252f-4498-a6bc-834405c8f472</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::label[1]</value>
+      <webElementGuid>cfe8498f-178f-43ee-bc21-3dd55d40377f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/following::label[2]</value>
+      <webElementGuid>e4a440b8-7dcd-44a7-a80a-7f0917ee5b53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[2]/preceding::label[1]</value>
+      <webElementGuid>d73a2bed-3f83-482b-a50b-fbb0e8b9cf30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/preceding::label[2]</value>
+      <webElementGuid>1946154c-5e38-41a8-bf12-d7b67c3fb94b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/label</value>
+      <webElementGuid>a4444d7e-6596-4fb6-9f40-52513af4d958</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'was-claim-opened-label' and (text() = concat(&quot;Has a claim been opened with responsible party&quot; , &quot;'&quot; , &quot;s insurance? *&quot;) or . = concat(&quot;Has a claim been opened with responsible party&quot; , &quot;'&quot; , &quot;s insurance? *&quot;))]</value>
+      <webElementGuid>0cde53e2-3462-4b5f-8c69-11ecb54e632b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

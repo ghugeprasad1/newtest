@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Do you currently have health insurance, including Medicare or Medicaid</name>
+   <tag></tag>
+   <elementGuidId>28bc1901-a0a1-403b-8d4e-e7b10dca72d1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#has-insurance-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='has-insurance-label']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Do you currently have health insurance, including Medicare or Medicaid? *&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>d72dc77b-5657-41bf-8725-77d4e532376c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-88235q</value>
+      <webElementGuid>3010d7a7-82ad-40be-914b-8b542cdbfa06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>has-insurance-label</value>
+      <webElementGuid>793bfc28-ad94-4c33-929f-f230ba5fff9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Do you currently have health insurance, including Medicare or Medicaid? *</value>
+      <webElementGuid>75cbb84a-747a-450f-8b96-f0b75f38673e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;has-insurance-label&quot;)</value>
+      <webElementGuid>616b486a-ec46-4c59-9796-81c8ec75b998</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='has-insurance-label']</value>
+      <webElementGuid>297f91f8-2182-493b-9712-430f2ab83adc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/form/div/div[3]/div/div/div/label</value>
+      <webElementGuid>ea24a58b-e6ba-4bec-b933-70a81d122a97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Additional Information'])[1]/following::label[1]</value>
+      <webElementGuid>b0fbafc9-9534-4aca-b44f-ace2b1fb1e64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/preceding::label[1]</value>
+      <webElementGuid>19b707d7-a611-4386-b754-5505960f289a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::label[2]</value>
+      <webElementGuid>7dac243e-da4d-446d-a2d0-2dd7ab0eb7bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Do you currently have health insurance, including Medicare or Medicaid?']/parent::*</value>
+      <webElementGuid>88003183-e5f3-4db8-875f-49b55b31149a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/label</value>
+      <webElementGuid>0e24d3c0-2ad0-4ce5-8d80-acbd4df233b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'has-insurance-label' and (text() = 'Do you currently have health insurance, including Medicare or Medicaid? *' or . = 'Do you currently have health insurance, including Medicare or Medicaid? *')]</value>
+      <webElementGuid>8a44fb67-c61b-441c-ac48-632b28feecba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

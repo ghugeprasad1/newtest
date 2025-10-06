@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Current AddressAddressAddressApartment, Suite, Etc.Apartment, Suite, Etc.CityCityStateStateZip CodeZip Code</name>
+   <tag></tag>
+   <elementGuidId>cad56088-249c-4380-8bdf-3d21e323baaf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/form/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Current AddressAddress *Address *Apartment, Suite, Etc.Apartment, Suite, Etc.Cit&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a8e6bd8f-c438-4b40-8d48-46e14f9eaef0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-oll7ag</value>
+      <webElementGuid>da25489e-3aeb-4797-805f-7eaa85163077</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Current AddressAddress *Address *Apartment, Suite, Etc.Apartment, Suite, Etc.City *City *State *State *Zip Code *Zip Code *</value>
+      <webElementGuid>a86c35f6-7551-43e5-9d46-ebfefa047225</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/form[1]/div[@class=&quot;MuiGrid-root MuiGrid-container css-1e2d1ti&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1y0460w&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-oll7ag&quot;]</value>
+      <webElementGuid>5951d1ec-b039-479a-bcbf-e195a18906b7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/form/div/div[2]/div</value>
+      <webElementGuid>97c3153b-cfc6-488b-ba12-5c953c7572ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div</value>
+      <webElementGuid>bb57494e-f97c-4f99-9f75-512e00a696c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Current AddressAddress *Address *Apartment, Suite, Etc.Apartment, Suite, Etc.City *City *State *State *Zip Code *Zip Code *' or . = 'Current AddressAddress *Address *Apartment, Suite, Etc.Apartment, Suite, Etc.City *City *State *State *Zip Code *Zip Code *')]</value>
+      <webElementGuid>53d66cf3-3291-46a5-a2ac-8d29de9c8a49</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

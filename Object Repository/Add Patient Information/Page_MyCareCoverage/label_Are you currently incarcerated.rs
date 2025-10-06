@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Are you currently incarcerated</name>
+   <tag></tag>
+   <elementGuidId>4132f65b-1b79-45e2-b060-3937f3bfeecf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#incarcerated-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='incarcerated-label']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Are you currently incarcerated? *&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>2e733e6a-b6c1-4b99-8e7f-b3fed3fb020c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-88235q</value>
+      <webElementGuid>ff050573-f2ce-4686-9714-c3744457ab49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>incarcerated-label</value>
+      <webElementGuid>75b7ef53-c1a4-4011-9225-e85536b68ae5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Are you currently incarcerated? *</value>
+      <webElementGuid>2bdad2b3-2e73-429c-b6c7-b64da0ea91c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;incarcerated-label&quot;)</value>
+      <webElementGuid>933c5486-fb68-472e-be50-1272d04ceb9c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='incarcerated-label']</value>
+      <webElementGuid>19a2c0eb-e662-45d6-9d12-058c1ee21804</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div[2]/form/div/div[3]/div/div[3]/div/label</value>
+      <webElementGuid>d8be2a14-cb98-4961-8abc-d817b9b25861</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/following::label[1]</value>
+      <webElementGuid>f62a69b8-ff5c-4d19-9992-32e96a7ebd68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[2]/following::label[2]</value>
+      <webElementGuid>672d88f4-f2d5-40c4-9bad-473c8ce4a5d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[3]/preceding::label[1]</value>
+      <webElementGuid>6a73e835-3211-4160-86de-a97aaaf5f161</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[3]/preceding::label[2]</value>
+      <webElementGuid>6b187e86-6328-4c91-bb2c-4fdb0d387497</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Are you currently incarcerated?']/parent::*</value>
+      <webElementGuid>43c8944f-94d3-440b-81a2-473af0acdc22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[3]/div/label</value>
+      <webElementGuid>ff9cb192-bfb2-48a2-b916-cb91a040b727</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'incarcerated-label' and (text() = 'Are you currently incarcerated? *' or . = 'Are you currently incarcerated? *')]</value>
+      <webElementGuid>810fe4cc-16da-40b9-8535-a27e92c741f7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

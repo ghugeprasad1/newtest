@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Total Records</name>
+   <tag></tag>
+   <elementGuidId>5ea0315a-334a-408c-a105-f8e6803d9b1f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Total Records' or . = 'Total Records')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=columnheader[name=&quot;Total Records Sort Total Records column menu&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8451de71-c23f-4f8d-a2ec-fc12c5cd201e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor</value>
+      <webElementGuid>ea5c40e9-8697-4395-9ccb-9ec9df2308b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>columnheader</value>
+      <webElementGuid>c9960432-a8af-45f3-a95e-6b116bb27662</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>ce7e1285-c524-4471-844e-f44b772bd4f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-colindex</name>
+      <type>Main</type>
+      <value>4</value>
+      <webElementGuid>13d82e22-4cc5-4ebf-8dd8-eb4b33b50799</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-sort</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>e702f93f-13c4-4700-a642-48a8abd8ed89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-field</name>
+      <type>Main</type>
+      <value>total_records</value>
+      <webElementGuid>131410fd-d7b0-4f69-93d4-c750483f7613</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Total Records</value>
+      <webElementGuid>e732e77e-48b0-47ab-aa47-4f735a26518f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiBox-root css-101arav&quot;]/div[@class=&quot;MuiStack-root css-1phb13z&quot;]/div[@class=&quot;MuiBox-root css-pjtxm8&quot;]/div[@class=&quot;MuiDataGrid-root MuiDataGrid-root--densityStandard MuiDataGrid-root--noToolbar MuiDataGrid-withBorderColor css-tckwym&quot;]/div[@class=&quot;MuiDataGrid-main css-1f0pawm&quot;]/div[@class=&quot;MuiDataGrid-virtualScroller css-2d5ulg&quot;]/div[@class=&quot;MuiDataGrid-topContainer MuiDataGrid-container--top css-b1wygl&quot;]/div[@class=&quot;MuiDataGrid-columnHeaders css-1t374vw&quot;]/div[@class=&quot;MuiDataGrid-row--borderBottom css-k008qs&quot;]/div[@class=&quot;MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor&quot;]</value>
+      <webElementGuid>ae3b370c-b8ec-4bf1-b677-5b83a4b07163</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Total Records' or . = 'Total Records')]</value>
+      <webElementGuid>f8acc647-efbf-4815-88a1-1b403b56bdb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[2]/div[2]/div/div/div[2]/div/div/div/div[5]</value>
+      <webElementGuid>b5b63228-c8df-4abe-880f-52a88fe11ed3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='File Name'])[1]/following::div[4]</value>
+      <webElementGuid>4fe56d90-0bfc-4da6-9bc4-b882a38976d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Campaign Name'])[1]/following::div[12]</value>
+      <webElementGuid>e1213216-860f-4611-adc0-b62227c6b1b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Success Records'])[1]/preceding::div[8]</value>
+      <webElementGuid>bae90ea6-68cf-4af9-b30a-89a8f4dabc7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]</value>
+      <webElementGuid>bf0a056c-cb89-4885-9697-a9a863d461d5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

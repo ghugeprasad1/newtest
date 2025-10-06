@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Campaign Name</name>
+   <tag></tag>
+   <elementGuidId>604a0ad2-5ae8-49de-b77d-6ca635101863</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Campaign Name' or . = 'Campaign Name')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=columnheader[name=&quot;Campaign Name Sort Campaign Name column menu&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>dc421556-248a-41e5-a7cd-c37a9a145573</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor</value>
+      <webElementGuid>3873ffb4-0142-4644-8afb-4650f4523719</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>columnheader</value>
+      <webElementGuid>a29da631-a7e0-4fee-a04b-119d86eb75cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>73ee51a2-b3f4-46dc-8998-2e81792e2187</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-colindex</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>792332ad-c649-4d88-a7c0-161afce10c27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-sort</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>5c3cd2ec-8cbc-4dce-b385-25f3f79c4d39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-field</name>
+      <type>Main</type>
+      <value>campaign_name</value>
+      <webElementGuid>76cfddda-d18b-4b40-8102-7e004fba21f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Campaign Name</value>
+      <webElementGuid>2269f859-138d-4d6a-b853-5ad41425a1ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiBox-root css-101arav&quot;]/div[@class=&quot;MuiStack-root css-1phb13z&quot;]/div[@class=&quot;MuiBox-root css-pjtxm8&quot;]/div[@class=&quot;MuiDataGrid-root MuiDataGrid-root--densityStandard MuiDataGrid-root--noToolbar MuiDataGrid-withBorderColor css-tckwym&quot;]/div[@class=&quot;MuiDataGrid-main css-1f0pawm&quot;]/div[@class=&quot;MuiDataGrid-virtualScroller css-2d5ulg&quot;]/div[@class=&quot;MuiDataGrid-topContainer MuiDataGrid-container--top css-b1wygl&quot;]/div[@class=&quot;MuiDataGrid-columnHeaders css-1t374vw&quot;]/div[@class=&quot;MuiDataGrid-row--borderBottom css-k008qs&quot;]/div[@class=&quot;MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor&quot;]</value>
+      <webElementGuid>e7fc7425-9fb3-4bc4-bde4-6d70a99cc32a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Campaign Name' or . = 'Campaign Name')]</value>
+      <webElementGuid>7e494cca-f151-4b45-adca-db21502a2e8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[2]/div[2]/div/div/div[2]/div/div/div/div[3]</value>
+      <webElementGuid>7fc67c7b-8966-4139-8868-9fa705d73060</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batch ID'])[1]/following::div[4]</value>
+      <webElementGuid>440cb35f-9579-43ce-93e9-4d224d0da376</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export'])[1]/following::div[18]</value>
+      <webElementGuid>4fe6dd9c-cff1-4b60-bef3-943a9bec4715</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='File Name'])[1]/preceding::div[8]</value>
+      <webElementGuid>10fd57df-cb8c-4eff-8a57-ea319d597e7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div/div[3]</value>
+      <webElementGuid>0a989bd0-b3c9-465c-bd7a-b90cb7b3a992</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

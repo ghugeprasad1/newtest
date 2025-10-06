@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Personal Information Required FieldsFirst NameFirst NameMiddle NameMiddle NameLast NameLast NameDate of BirthDate of BirthMobile NumberMobile NumberEmailEmailAre you a citizen of the USAAre you a citizen of the USAGe</name>
+   <tag></tag>
+   <elementGuidId>edbdd7a3-d7f1-4ee2-9c25-7d7a04f018aa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-oll7ag</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/form/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Personal Information* Required FieldsFirst Name *First Name *Middle NameMiddle N&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a9bbe8fc-c705-465b-98da-4385d4c0dd2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-oll7ag</value>
+      <webElementGuid>cc6421ff-0f52-4926-a3db-6c9ea32eb21c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Personal Information* Required FieldsFirst Name *First Name *Middle NameMiddle NameLast Name *Last Name *Date of Birth *Date of Birth *Mobile NumberMobile NumberEmailEmailAre you a citizen of the USA? *Are you a citizen of the USA? *Gender *Gender *</value>
+      <webElementGuid>0751391b-13d2-41d0-9af2-bd9ae916f864</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/form[1]/div[@class=&quot;MuiGrid-root MuiGrid-container css-1e2d1ti&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1y0460w&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-oll7ag&quot;]</value>
+      <webElementGuid>80248986-c09a-49ae-9e1e-8961c7bcf056</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/form/div/div/div</value>
+      <webElementGuid>4c0ec2f0-c011-4428-b29c-44e18ad66f9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div</value>
+      <webElementGuid>1d6c9a33-2b25-4694-9e2f-dabbeac96b05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Personal Information* Required FieldsFirst Name *First Name *Middle NameMiddle NameLast Name *Last Name *Date of Birth *Date of Birth *Mobile NumberMobile NumberEmailEmailAre you a citizen of the USA? *Are you a citizen of the USA? *Gender *Gender *' or . = 'Personal Information* Required FieldsFirst Name *First Name *Middle NameMiddle NameLast Name *Last Name *Date of Birth *Date of Birth *Mobile NumberMobile NumberEmailEmailAre you a citizen of the USA? *Are you a citizen of the USA? *Gender *Gender *')]</value>
+      <webElementGuid>f2f813ef-6a9a-47dc-a062-5e914cbd530c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

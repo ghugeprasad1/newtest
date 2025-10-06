@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_Personal Information Required FieldsFi_f09c15</name>
+   <tag></tag>
+   <elementGuidId>2489b906-6562-468b-8c70-a787d17323d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>form</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[3]/div[2]/form</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>form</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+      <webElementGuid>cd10ccd3-1f40-4e35-b768-d5a8edf49278</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Personal Information* Required FieldsFirst Name *First Name *Middle NameMiddle NameLast Name *Last Name *Date of Birth *Date of Birth *Mobile NumberMobile NumberEmailEmailHospital Account RecordHospital Account RecordAdmittance DateAdmittance DateAre you a citizen of the USA? *Are you a citizen of the USA? *Social Security Number *Social Security Number *SSN is only required for US Citizens.Gender *Gender *Current AddressAddress *Address *Apartment, Suite, Etc.Apartment, Suite, Etc.City *City *State *State *Zip Code *Zip Code *Additional InformationDo you currently have health insurance, including Medicare or Medicaid? *YesNoDoes this visit relate to an accident? *YesNoAre you currently incarcerated? *YesNoWere you ever in foster care? *YesNoIn the last 60 days or the upcoming 60 days, have you lost, or will you lose health insurance? *YesNoIncome SourceYour income is an important part of your application. Please provide all sources of income.No Income SourceAdd Income SourceContinue</value>
+      <webElementGuid>7f9c1782-7342-4c7c-8320-b49d02ad54c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiBox-root css-101arav&quot;]/div[@class=&quot;MuiStack-root css-1phb13z&quot;]/form[1]</value>
+      <webElementGuid>c4d3a892-f04d-4668-9481-d7eb30f7b65b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div[2]/form</value>
+      <webElementGuid>81d760ca-2398-42ce-8a14-c578f22ec6c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send PURL'])[1]/following::form[1]</value>
+      <webElementGuid>44bba198-14b3-4cf9-92b6-fb13d1de2772</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::form[1]</value>
+      <webElementGuid>33d7bbd7-91c6-4965-9d8c-af764aace7fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>2534ade9-ea49-4cfe-891d-028ac8b48bda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//form[(text() = 'Personal Information* Required FieldsFirst Name *First Name *Middle NameMiddle NameLast Name *Last Name *Date of Birth *Date of Birth *Mobile NumberMobile NumberEmailEmailHospital Account RecordHospital Account RecordAdmittance DateAdmittance DateAre you a citizen of the USA? *Are you a citizen of the USA? *Social Security Number *Social Security Number *SSN is only required for US Citizens.Gender *Gender *Current AddressAddress *Address *Apartment, Suite, Etc.Apartment, Suite, Etc.City *City *State *State *Zip Code *Zip Code *Additional InformationDo you currently have health insurance, including Medicare or Medicaid? *YesNoDoes this visit relate to an accident? *YesNoAre you currently incarcerated? *YesNoWere you ever in foster care? *YesNoIn the last 60 days or the upcoming 60 days, have you lost, or will you lose health insurance? *YesNoIncome SourceYour income is an important part of your application. Please provide all sources of income.No Income SourceAdd Income SourceContinue' or . = 'Personal Information* Required FieldsFirst Name *First Name *Middle NameMiddle NameLast Name *Last Name *Date of Birth *Date of Birth *Mobile NumberMobile NumberEmailEmailHospital Account RecordHospital Account RecordAdmittance DateAdmittance DateAre you a citizen of the USA? *Are you a citizen of the USA? *Social Security Number *Social Security Number *SSN is only required for US Citizens.Gender *Gender *Current AddressAddress *Address *Apartment, Suite, Etc.Apartment, Suite, Etc.City *City *State *State *Zip Code *Zip Code *Additional InformationDo you currently have health insurance, including Medicare or Medicaid? *YesNoDoes this visit relate to an accident? *YesNoAre you currently incarcerated? *YesNoWere you ever in foster care? *YesNoIn the last 60 days or the upcoming 60 days, have you lost, or will you lose health insurance? *YesNoIncome SourceYour income is an important part of your application. Please provide all sources of income.No Income SourceAdd Income SourceContinue')]</value>
+      <webElementGuid>80bd0697-22dd-4227-8627-a13906df6163</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

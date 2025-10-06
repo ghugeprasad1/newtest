@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_imported_accounts.csv</name>
+   <tag></tag>
+   <elementGuidId>9c080cd3-8994-45a0-adbf-108f343f9db0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Browse'])[1]/following::td[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.css-nuh55r</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;imported_accounts.csv&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>f302597f-5c91-4e99-b92f-63024a029369</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-nuh55r</value>
+      <webElementGuid>16fbea7a-bd6d-4eee-9425-404efa33ec02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>imported_accounts.csv</value>
+      <webElementGuid>455f2ce8-4540-41ff-9b30-f49fcc14023e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;hide-scrollbar&quot;]/body[1]/div[@class=&quot;MuiDialog-root MuiModal-root css-3kvb6s&quot;]/div[@class=&quot;MuiDialog-container MuiDialog-scrollPaper css-ekeie0&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm css-1kpqmhy&quot;]/div[@class=&quot;MuiDialogContent-root MuiDialogContent-dividers css-1r09u4m&quot;]/div[@class=&quot;MuiGrid-root css-bxvtr4&quot;]/div[@class=&quot;MuiGrid-root css-iskc7v&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root css-13xy2my&quot;]/table[@class=&quot;MuiTable-root css-1wo2kly&quot;]/tbody[@class=&quot;MuiTableBody-root css-1xnox0e&quot;]/tr[@class=&quot;MuiTableRow-root css-1gqug66&quot;]/td[@class=&quot;MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-nuh55r&quot;]</value>
+      <webElementGuid>de3679bd-4fca-46b4-a02c-50c8483c472b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Browse'])[1]/following::td[1]</value>
+      <webElementGuid>1363d67c-7cfa-467b-9fc0-cbaf76608717</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Import'])[3]/preceding::td[2]</value>
+      <webElementGuid>03131500-fe9e-4b0f-9f46-6b2bb9c3c8b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td</value>
+      <webElementGuid>f9bb2b2a-a6fc-44f6-bac4-5e97cd7a3885</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'imported_accounts.csv' or . = 'imported_accounts.csv')]</value>
+      <webElementGuid>a1f116eb-001c-4fed-9ece-2694e94e0a6b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

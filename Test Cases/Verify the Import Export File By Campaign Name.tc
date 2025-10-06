@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the Import Export File By Campaign Name</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4d1841c1-e634-45cf-a249-cd114cc4c740</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>bf98c421-b886-4297-8cfc-a9c6911672cb</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/New Test Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>bf98c421-b886-4297-8cfc-a9c6911672cb</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>CampaignName</value>
+      <variableId>3aec8fdd-a3db-4dc5-b49a-46624eb8e332</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3aec8fdd-a3db-4dc5-b49a-46624eb8e332</id>
+      <masked>false</masked>
+      <name>CampaignName</name>
+   </variable>
+</TestCaseEntity>

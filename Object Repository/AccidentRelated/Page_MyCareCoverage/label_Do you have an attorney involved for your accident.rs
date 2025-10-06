@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Do you have an attorney involved for your accident</name>
+   <tag></tag>
+   <elementGuidId>cc78061b-ac7c-42b2-9f0d-504f2c63584f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#attorney_involved-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='attorney_involved-label']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Do you have an attorney involved for your accident? *&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>5538bef9-0f33-4b12-91b9-e410b4946a57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-88235q</value>
+      <webElementGuid>9a33a517-8517-48d1-a601-d1de101ad204</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>attorney_involved-label</value>
+      <webElementGuid>29dd80cf-2500-43db-a4d0-998c831306cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Do you have an attorney involved for your accident? *</value>
+      <webElementGuid>dc6a873d-a53b-4663-a64d-e9b67e61d554</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;attorney_involved-label&quot;)</value>
+      <webElementGuid>b20c50c9-da30-4670-b551-eb5c14bac69e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='attorney_involved-label']</value>
+      <webElementGuid>e1af79fa-dda0-4c1f-9f3f-815f003955a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div[2]/form/div/div[3]/div/div/label</value>
+      <webElementGuid>de8ba9e2-c99a-4dbf-b321-d23f61a3107c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Attorney Information'])[1]/following::label[1]</value>
+      <webElementGuid>018a43dd-16e9-40a8-b2e6-908fb208b0ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Insurance'])[1]/following::label[1]</value>
+      <webElementGuid>31776f0b-afee-40a5-9e44-f938121737bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/preceding::label[1]</value>
+      <webElementGuid>4791b31e-c891-4109-af16-f4c677c4b57b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::label[2]</value>
+      <webElementGuid>d219e14d-da62-4f0c-a1f0-e3c578db9046</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Do you have an attorney involved for your accident?']/parent::*</value>
+      <webElementGuid>b0042937-aebb-4d58-a7fb-b070f5e7bd33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/label</value>
+      <webElementGuid>2e1f249a-a847-4c46-b5a8-e29c16d2481b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'attorney_involved-label' and (text() = 'Do you have an attorney involved for your accident? *' or . = 'Do you have an attorney involved for your accident? *')]</value>
+      <webElementGuid>ffca1860-9fdb-40cc-8ab8-af4d2ca05a61</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

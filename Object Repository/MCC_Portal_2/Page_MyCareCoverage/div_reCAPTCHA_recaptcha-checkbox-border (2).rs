@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_reCAPTCHA_recaptcha-checkbox-border (2)</name>
+   <tag></tag>
+   <elementGuidId>3ab418bd-ae30-462f-abd7-979668b30fa9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='recaptcha-anchor']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.recaptcha-checkbox-border</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;I'm not a robot&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bf249a3c-d257-49d0-9d32-41816bab45ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>recaptcha-checkbox-border</value>
+      <webElementGuid>abc651db-980b-4776-978b-93f2552caa91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>46e8a21a-1eea-4a14-b4f6-0eda3e75124c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;recaptcha-anchor&quot;)/div[@class=&quot;recaptcha-checkbox-border&quot;]</value>
+      <webElementGuid>35b5308f-c944-4462-92de-092d8448106a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/NEWPALOGIN/Page_MyCareCoverage/iframe_Password_a-7ywre4safkag</value>
+      <webElementGuid>f799dd30-476f-4540-b610-6cd498c387c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/byfilename/Page_MyCareCoverage/iframe_Password_a-7ywre4safkag</value>
+      <webElementGuid>595c6d22-f23f-4aaa-9eed-9a4fa1f314cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/batch id/Page_MyCareCoverage/iframe_Password_a-7ywre4safkag</value>
+      <webElementGuid>80ce282d-60e4-4dec-b060-5255be866531</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/CamName/Page_MyCareCoverage/iframe_Password_a-7ywre4safkag</value>
+      <webElementGuid>8c760cf4-f2ef-422a-8454-c12e19ae5954</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/totalrecordsnew/Page_MyCareCoverage/iframe_Password_a-7ywre4safkag</value>
+      <webElementGuid>658072be-11f0-4370-b1fc-e3e4f40ea65a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/ImportTest/Page_MyCareCoverage/iframe_Password_a-7ywre4safkag</value>
+      <webElementGuid>af9416c6-5dc3-4a6b-879d-85eb96256579</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='recaptcha-anchor']/div</value>
+      <webElementGuid>71f88467-d3bb-452a-bf6d-a450cafcb30b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div</value>
+      <webElementGuid>b54d6c2a-104e-4c0a-a117-83a3b0fcf979</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

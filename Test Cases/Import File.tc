@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Import File</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>22e48212-d0e4-4674-8bf5-ec353fe556ad</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>00daffe7-53d0-4082-a354-4c8a47305c7f</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/New Test Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>00daffe7-53d0-4082-a354-4c8a47305c7f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>filename</value>
+      <variableId>d9e55ea7-8394-461d-9370-c51049500a29</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d9e55ea7-8394-461d-9370-c51049500a29</id>
+      <masked>false</masked>
+      <name>filename</name>
+   </variable>
+</TestCaseEntity>

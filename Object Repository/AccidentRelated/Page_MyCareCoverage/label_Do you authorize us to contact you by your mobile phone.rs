@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Do you authorize us to contact you by your mobile phone</name>
+   <tag></tag>
+   <elementGuidId>55af9179-d85e-4717-8da1-1f4dae72d022</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#allow-contact-by-phone-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='allow-contact-by-phone-label']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Do you authorize us to contact you by your mobile phone? *&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>4fc3a75d-45de-4ef0-b976-53de5ed0de22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-88235q</value>
+      <webElementGuid>059bb4f0-095e-431b-bb3e-a8555eda2233</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>allow-contact-by-phone-label</value>
+      <webElementGuid>d3d62178-ca27-449a-ba5f-58261ec873b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Do you authorize us to contact you by your mobile phone? *</value>
+      <webElementGuid>73d57c5a-4983-445b-9f81-3761bec36e9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;allow-contact-by-phone-label&quot;)</value>
+      <webElementGuid>c30e765f-b56d-4473-863d-bf7018e44573</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='allow-contact-by-phone-label']</value>
+      <webElementGuid>48a008e2-8665-4344-9e73-a55ffeb60421</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div[2]/form/div/div[3]/div/div[2]/div/label</value>
+      <webElementGuid>db7c46d8-e2ed-4068-a415-c6be888963eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[2]/preceding::label[1]</value>
+      <webElementGuid>17b950ab-70e7-4bf7-88f9-1bd19742034e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/preceding::label[2]</value>
+      <webElementGuid>ba41b8ea-205d-45b8-9785-d7e1a004e551</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Do you authorize us to contact you by your mobile phone?']/parent::*</value>
+      <webElementGuid>bd04cc21-2cf1-42d9-bd63-d570181e4a8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/label</value>
+      <webElementGuid>e19ded68-cd63-44df-ba2f-3e513c25c80c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'allow-contact-by-phone-label' and (text() = 'Do you authorize us to contact you by your mobile phone? *' or . = 'Do you authorize us to contact you by your mobile phone? *')]</value>
+      <webElementGuid>9700b08a-2ddb-4dd0-8b99-ce9f73d3f8c7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

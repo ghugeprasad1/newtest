@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verifycampaigenname</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1d82c1e2-efbc-4246-b823-6657b16a1be0</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>7f73f272-0791-4ab4-af6e-84016fee0360</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/New Test Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>7f73f272-0791-4ab4-af6e-84016fee0360</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>CampaignName</value>
+      <variableId>4dafb3a3-e056-4e3e-b09d-7792823e2611</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4dafb3a3-e056-4e3e-b09d-7792823e2611</id>
+      <masked>false</masked>
+      <name>CampaignName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the Import Export File By Total Records</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>89d23318-0632-482b-8230-62041e8dcd9b</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>c66be46d-78df-4828-badb-f1a1e5ed38ea</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/New Test Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>c66be46d-78df-4828-badb-f1a1e5ed38ea</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>TotalRecords</value>
+      <variableId>bdcc1d4f-fc9d-4475-ba87-cce734bdeea4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bdcc1d4f-fc9d-4475-ba87-cce734bdeea4</id>
+      <masked>false</masked>
+      <name>TotalRecords</name>
+   </variable>
+</TestCaseEntity>

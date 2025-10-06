@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the Import Export File By Status</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4cfe0bb5-1fc5-4510-bf82-1382bbb0f1f9</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>d04ad73a-18f8-4310-b2b8-90b8c20a2915</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/New Test Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>d04ad73a-18f8-4310-b2b8-90b8c20a2915</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Status</value>
+      <variableId>14d0595f-5a23-4c95-b5b0-a98ed4f25286</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>14d0595f-5a23-4c95-b5b0-a98ed4f25286</id>
+      <masked>false</masked>
+      <name>Status</name>
+   </variable>
+</TestCaseEntity>

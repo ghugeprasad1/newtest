@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the Import Export File By Batch ID</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8ac43513-e7b3-4bf9-ba6e-efbf8e112c87</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>4f41073a-ccc1-44a3-b89a-eef20c718382</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/New Test Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>4f41073a-ccc1-44a3-b89a-eef20c718382</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>BatchID</value>
+      <variableId>d8159347-5ca6-410f-91c3-7d5ffccf8b53</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d8159347-5ca6-410f-91c3-7d5ffccf8b53</id>
+      <masked>false</masked>
+      <name>BatchID</name>
+   </variable>
+</TestCaseEntity>

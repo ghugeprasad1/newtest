@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_How often do you receive your income</name>
+   <tag></tag>
+   <elementGuidId>f2923eb0-1b42-4395-88cf-6edd695726d3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#how-do-you-receive-income</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='how-do-you-receive-income']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;How often do you receive your income? *&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>7ba5fb6c-32ef-4347-9fcb-5a61e4254f5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-88235q</value>
+      <webElementGuid>34c27c68-6999-4d79-9c3b-8fc3cf5a5e48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>how-do-you-receive-income</value>
+      <webElementGuid>a81aeefa-b442-4091-afc2-7b95c4ac5d61</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>How often do you receive your income? *</value>
+      <webElementGuid>e776f622-3fc7-4471-8e84-2bff7eabd285</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;how-do-you-receive-income&quot;)</value>
+      <webElementGuid>a3e1a50b-e2dd-41a8-a529-8ff96d90c66f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='how-do-you-receive-income']</value>
+      <webElementGuid>4ef3671a-350b-440b-a05d-d5d23d0ec423</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter Your Estimated Income'])[2]/following::label[1]</value>
+      <webElementGuid>5c357942-aab8-451f-8928-abafc58b8957</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Weekly'])[1]/preceding::label[1]</value>
+      <webElementGuid>e540bbd8-1b7c-4bc7-bd58-302db56855b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Biweekly'])[1]/preceding::label[2]</value>
+      <webElementGuid>8ff6cc90-3b84-45b2-b806-8a6ddbf0f585</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='How often do you receive your income?']/parent::*</value>
+      <webElementGuid>56eeee89-bd61-4876-afd7-c83087bf202d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div[2]/div/label</value>
+      <webElementGuid>0a2c7dfd-298f-4346-8a5d-968623d22b3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'how-do-you-receive-income' and (text() = 'How often do you receive your income? *' or . = 'How often do you receive your income? *')]</value>
+      <webElementGuid>e8a91139-1d9a-4bf6-906c-d06106dda6b5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

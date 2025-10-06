@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Failed Records</name>
+   <tag></tag>
+   <elementGuidId>9f350914-e0ac-494e-a879-1bc59fd1b89e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Failed Records' or . = 'Failed Records')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=columnheader[name=&quot;Failed Records Sort Failed Records column menu&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>26b22d43-f101-47ef-aa22-61b07bcb6ae0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor</value>
+      <webElementGuid>dd42cc64-9d6e-4e46-9f55-27b0cd47b470</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>columnheader</value>
+      <webElementGuid>75607a96-8fa6-4a6d-ba38-5ed37fe049fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>0afbe99c-7d28-46fb-9e1f-ad994549d326</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-colindex</name>
+      <type>Main</type>
+      <value>6</value>
+      <webElementGuid>27618cf8-a123-4fb5-9ce0-234d01195eca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-sort</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>72bfea6b-2add-4cbd-9808-f8d9c516a8f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-field</name>
+      <type>Main</type>
+      <value>failed_records</value>
+      <webElementGuid>2ae20435-a68c-4f8d-b0e5-a2c4238578b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Failed Records</value>
+      <webElementGuid>52a47949-46f6-4f82-a731-7891fd46640d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiBox-root css-101arav&quot;]/div[@class=&quot;MuiStack-root css-1phb13z&quot;]/div[@class=&quot;MuiBox-root css-pjtxm8&quot;]/div[@class=&quot;MuiDataGrid-root MuiDataGrid-root--densityStandard MuiDataGrid-root--noToolbar MuiDataGrid-withBorderColor css-tckwym&quot;]/div[@class=&quot;MuiDataGrid-main css-1f0pawm&quot;]/div[@class=&quot;MuiDataGrid-virtualScroller css-2d5ulg&quot;]/div[@class=&quot;MuiDataGrid-topContainer MuiDataGrid-container--top css-b1wygl&quot;]/div[@class=&quot;MuiDataGrid-columnHeaders css-1t374vw&quot;]/div[@class=&quot;MuiDataGrid-row--borderBottom css-k008qs&quot;]/div[@class=&quot;MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable MuiDataGrid-withBorderColor&quot;]</value>
+      <webElementGuid>a748f749-1356-46e6-8d1a-6b247e293e7e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Failed Records' or . = 'Failed Records')]</value>
+      <webElementGuid>bf9c3678-2f15-4233-af62-66789bcd949a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[2]/div[2]/div/div/div[2]/div/div/div/div[7]</value>
+      <webElementGuid>c8c6b3c2-6e30-4934-9430-6dce52960bd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Success Records'])[1]/following::div[4]</value>
+      <webElementGuid>6fe0906e-58db-4f2d-b258-155d71e9701e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Records'])[1]/following::div[12]</value>
+      <webElementGuid>835bd03c-c6d5-48f6-b183-298a714284b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/preceding::div[8]</value>
+      <webElementGuid>6e15c67e-765b-4745-89ee-893d4ee95c38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]</value>
+      <webElementGuid>1b8b5d84-9a44-4b80-b9dc-18d6612bee8a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

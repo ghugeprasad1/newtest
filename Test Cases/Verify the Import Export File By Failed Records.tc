@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the Import Export File By Failed Records</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1bafc593-39de-4945-9fed-55071be61943</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>a6eae047-7917-4ff8-8638-1c604e797363</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/New Test Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>a6eae047-7917-4ff8-8638-1c604e797363</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>FailedRecords</value>
+      <variableId>da2cafeb-de69-4360-aa6b-999087f68248</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>da2cafeb-de69-4360-aa6b-999087f68248</id>
+      <masked>false</masked>
+      <name>FailedRecords</name>
+   </variable>
+</TestCaseEntity>

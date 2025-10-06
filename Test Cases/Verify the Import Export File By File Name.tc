@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the Import Export File By File Name</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>46cd690e-b08e-42d2-9578-427886feaed2</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>5e6846a9-5b37-4726-bb28-9c2f9f33ffee</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/New Test Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>5e6846a9-5b37-4726-bb28-9c2f9f33ffee</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>filename</value>
+      <variableId>2570d2ea-5f3a-4464-b081-8ababe24e23f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2570d2ea-5f3a-4464-b081-8ababe24e23f</id>
+      <masked>false</masked>
+      <name>filename</name>
+   </variable>
+</TestCaseEntity>

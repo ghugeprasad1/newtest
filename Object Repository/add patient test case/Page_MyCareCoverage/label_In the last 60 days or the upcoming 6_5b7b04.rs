@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_In the last 60 days or the upcoming 6_5b7b04</name>
+   <tag></tag>
+   <elementGuidId>0ce5fe3f-80b4-4792-b539-dbecbd456008</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#lost-health-insurance-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='lost-health-insurance-label']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;In the last 60 days or the upcoming 60 days, have you lost, or will you lose hea&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>4b31c7ab-39d5-464e-8ac7-47749fe87b76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-88235q</value>
+      <webElementGuid>a474b484-4f89-4ee6-8cdd-a9fcb1003374</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>lost-health-insurance-label</value>
+      <webElementGuid>620d8dac-cc44-4ec6-98df-c64ab1d20f1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>In the last 60 days or the upcoming 60 days, have you lost, or will you lose health insurance? *</value>
+      <webElementGuid>687b0985-cd46-44de-9ded-9e71994b0c77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lost-health-insurance-label&quot;)</value>
+      <webElementGuid>f126eb6d-9a76-42bc-bec9-e8352604482e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='lost-health-insurance-label']</value>
+      <webElementGuid>faf4a9b8-494a-4743-a39b-5fc3d6e1fa2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div[2]/form/div/div[3]/div/div[5]/div/label</value>
+      <webElementGuid>e87e6f5f-76e5-4177-9012-dca80094b2b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[4]/following::label[1]</value>
+      <webElementGuid>643b8040-94a5-4178-8874-2b767f502161</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[4]/following::label[2]</value>
+      <webElementGuid>4c30b778-71dd-457d-b3f7-e42d7e08ce88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[5]/preceding::label[1]</value>
+      <webElementGuid>e227c662-9dce-4701-a74d-7d8d7fc436e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[5]/preceding::label[2]</value>
+      <webElementGuid>0ccd2009-aaa0-44d0-a5c6-04138c242fe2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='In the last 60 days or the upcoming 60 days, have you lost, or will you lose health insurance?']/parent::*</value>
+      <webElementGuid>5f180974-7944-4214-9bca-59750f662679</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[5]/div/label</value>
+      <webElementGuid>1a5055df-ce73-4018-b6ab-b563ab021f9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'lost-health-insurance-label' and (text() = 'In the last 60 days or the upcoming 60 days, have you lost, or will you lose health insurance? *' or . = 'In the last 60 days or the upcoming 60 days, have you lost, or will you lose health insurance? *')]</value>
+      <webElementGuid>4336ad42-ec38-4c11-9a5d-3cd4dc3ba541</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

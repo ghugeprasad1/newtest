@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verifybyfilename</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2af01a63-a0d0-42a0-aac0-6729dc9cc4c2</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>7c3b305b-d887-4874-ba09-78742b25c0d6</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/New Test Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>7c3b305b-d887-4874-ba09-78742b25c0d6</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>filename</value>
+      <variableId>18e348ff-598c-4e32-a045-15f77f033752</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>18e348ff-598c-4e32-a045-15f77f033752</id>
+      <masked>false</masked>
+      <name>filename</name>
+   </variable>
+</TestCaseEntity>

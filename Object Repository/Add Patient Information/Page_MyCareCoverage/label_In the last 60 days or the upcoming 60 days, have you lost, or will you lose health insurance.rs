@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_In the last 60 days or the upcoming 60 days, have you lost, or will you lose health insurance</name>
+   <tag></tag>
+   <elementGuidId>e0ae74da-a910-4006-9410-0bbc9571a9ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#lost-health-insurance-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='lost-health-insurance-label']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;In the last 60 days or the upcoming 60 days, have you lost, or will you lose hea&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>fd584c4a-9279-4f45-8e2d-881ad3ce9c7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-88235q</value>
+      <webElementGuid>ea4664d8-1816-441a-9523-e0f5c3883b06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>lost-health-insurance-label</value>
+      <webElementGuid>62ebd632-bc2e-4a63-b4ea-ac8eded453d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>In the last 60 days or the upcoming 60 days, have you lost, or will you lose health insurance? *</value>
+      <webElementGuid>cb6f96c7-7b14-43d6-b788-209df9a48e88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lost-health-insurance-label&quot;)</value>
+      <webElementGuid>52ecb195-2a84-4c34-8c06-a6a31c2a9d69</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='lost-health-insurance-label']</value>
+      <webElementGuid>2d4f4c11-9538-4cff-9073-0a86667c965a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div[2]/form/div/div[3]/div/div[5]/div/label</value>
+      <webElementGuid>6d79d9e5-9c80-4d69-9636-1df376af05de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[4]/following::label[1]</value>
+      <webElementGuid>10c59b02-cf68-4783-9a75-33b842250d68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[4]/following::label[2]</value>
+      <webElementGuid>932983cc-88a6-4e04-a30d-a8ff76db7a68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[5]/preceding::label[1]</value>
+      <webElementGuid>1826668e-29a5-46da-8672-46c825b3e7eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[5]/preceding::label[2]</value>
+      <webElementGuid>aef57a4b-76ab-4dd7-933c-51b657ff98cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='In the last 60 days or the upcoming 60 days, have you lost, or will you lose health insurance?']/parent::*</value>
+      <webElementGuid>527b3462-ebf5-4e59-add3-87a519709cc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[5]/div/label</value>
+      <webElementGuid>c3359660-db53-4f53-b032-f17cebabea69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'lost-health-insurance-label' and (text() = 'In the last 60 days or the upcoming 60 days, have you lost, or will you lose health insurance? *' or . = 'In the last 60 days or the upcoming 60 days, have you lost, or will you lose health insurance? *')]</value>
+      <webElementGuid>adf2eb42-c6b7-4088-8a74-2f91a2f3d790</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

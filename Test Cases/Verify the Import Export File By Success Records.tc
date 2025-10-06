@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the Import Export File By Success Records</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aecfba91-8c94-4dcf-9c39-da4e523d47de</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8330edd6-f6b7-46e4-8be0-183ed43d943f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8330edd6-f6b7-46e4-8be0-183ed43d943f</id>
+      <masked>false</masked>
+      <name>SuccessRecords</name>
+   </variable>
+</TestCaseEntity>
