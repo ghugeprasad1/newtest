@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Privacy - Terms</name>
+   <tag></tag>
+   <elementGuidId>46838bb3-97fc-4aef-92c0-b0defaa4ce4c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.rc-anchor-pt</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Privacy - Terms' or . = 'Privacy - Terms')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Privacy - Terms&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ac219fe2-edfb-4100-ba31-02f2715c95ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rc-anchor-pt</value>
+      <webElementGuid>a75a38b9-31f1-4810-b29d-19b019713080</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Privacy - Terms</value>
+      <webElementGuid>cdba03be-4ca5-4592-9fc6-91499885e7b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rc-anchor-container&quot;)/div[@class=&quot;rc-anchor-normal-footer&quot;]/div[@class=&quot;rc-anchor-pt&quot;]</value>
+      <webElementGuid>e7ac1d08-5d04-48cc-8985-e83e11735c17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/MCC - PA Portal Add Landing Page/Page_MyCareCoverage/iframe_Password_a-v3mlsaqqq6ny</value>
+      <webElementGuid>2899edea-7feb-47c5-a593-5cea43c240f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Privacy - Terms' or . = 'Privacy - Terms')]</value>
+      <webElementGuid>2fc0b646-85d7-4e08-8dcc-f5d03eec205c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rc-anchor-container']/div[4]/div[2]</value>
+      <webElementGuid>c8a3e128-1d00-4787-bd02-e18a6163f89e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='reCAPTCHA'])[2]/following::div[1]</value>
+      <webElementGuid>6dd50bd9-da78-4f6e-bd3a-29bd5283d33a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]</value>
+      <webElementGuid>a0d5ab86-2a09-4c14-b24e-1a1e6cf14a28</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

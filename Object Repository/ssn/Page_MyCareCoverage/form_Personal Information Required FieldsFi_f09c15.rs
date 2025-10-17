@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_Personal Information Required FieldsFi_f09c15</name>
+   <tag></tag>
+   <elementGuidId>ab3e8808-7cc1-4a0d-9719-cfd960795bef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>form</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[(text() = 'Personal Information* Required FieldsFirst Name *First Name *Middle NameMiddle NameLast Name *Last Name *Date of Birth *Date of Birth *Mobile NumberMobile NumberEmailEmailHospital Account RecordHospital Account RecordAdmittance DateAdmittance DateAre you a citizen of the USA? *Are you a citizen of the USA? *Gender *Gender *Are you currently pregnant? *Are you currently pregnant? *Current AddressAddress *Address *Apartment, Suite, Etc.Apartment, Suite, Etc.City *City *State *State *Zip Code *Zip Code *Additional InformationDo you currently have health insurance, including Medicare or Medicaid? *YesNoDoes this visit relate to an accident? *YesNoAre you currently incarcerated? *YesNoWere you ever in foster care? *YesNoIn the last 60 days or the upcoming 60 days, have you lost, or will you lose health insurance? *YesNoIncome SourceYour income is an important part of your application. Please provide all sources of income.No Income SourceAdd Income SourceContinue' or . = 'Personal Information* Required FieldsFirst Name *First Name *Middle NameMiddle NameLast Name *Last Name *Date of Birth *Date of Birth *Mobile NumberMobile NumberEmailEmailHospital Account RecordHospital Account RecordAdmittance DateAdmittance DateAre you a citizen of the USA? *Are you a citizen of the USA? *Gender *Gender *Are you currently pregnant? *Are you currently pregnant? *Current AddressAddress *Address *Apartment, Suite, Etc.Apartment, Suite, Etc.City *City *State *State *Zip Code *Zip Code *Additional InformationDo you currently have health insurance, including Medicare or Medicaid? *YesNoDoes this visit relate to an accident? *YesNoAre you currently incarcerated? *YesNoWere you ever in foster care? *YesNoIn the last 60 days or the upcoming 60 days, have you lost, or will you lose health insurance? *YesNoIncome SourceYour income is an important part of your application. Please provide all sources of income.No Income SourceAdd Income SourceContinue')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>form</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+      <webElementGuid>a4d0e6ac-1d73-497d-8764-2d9fd1b32854</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Personal Information* Required FieldsFirst Name *First Name *Middle NameMiddle NameLast Name *Last Name *Date of Birth *Date of Birth *Mobile NumberMobile NumberEmailEmailHospital Account RecordHospital Account RecordAdmittance DateAdmittance DateAre you a citizen of the USA? *Are you a citizen of the USA? *Gender *Gender *Are you currently pregnant? *Are you currently pregnant? *Current AddressAddress *Address *Apartment, Suite, Etc.Apartment, Suite, Etc.City *City *State *State *Zip Code *Zip Code *Additional InformationDo you currently have health insurance, including Medicare or Medicaid? *YesNoDoes this visit relate to an accident? *YesNoAre you currently incarcerated? *YesNoWere you ever in foster care? *YesNoIn the last 60 days or the upcoming 60 days, have you lost, or will you lose health insurance? *YesNoIncome SourceYour income is an important part of your application. Please provide all sources of income.No Income SourceAdd Income SourceContinue</value>
+      <webElementGuid>1db12203-1abd-4513-96ec-abc9a5a02e9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiBox-root css-101arav&quot;]/div[@class=&quot;MuiStack-root css-1phb13z&quot;]/form[1]</value>
+      <webElementGuid>4e59b9a2-fe86-497c-af5a-d23ab29b450c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//form[(text() = 'Personal Information* Required FieldsFirst Name *First Name *Middle NameMiddle NameLast Name *Last Name *Date of Birth *Date of Birth *Mobile NumberMobile NumberEmailEmailHospital Account RecordHospital Account RecordAdmittance DateAdmittance DateAre you a citizen of the USA? *Are you a citizen of the USA? *Gender *Gender *Are you currently pregnant? *Are you currently pregnant? *Current AddressAddress *Address *Apartment, Suite, Etc.Apartment, Suite, Etc.City *City *State *State *Zip Code *Zip Code *Additional InformationDo you currently have health insurance, including Medicare or Medicaid? *YesNoDoes this visit relate to an accident? *YesNoAre you currently incarcerated? *YesNoWere you ever in foster care? *YesNoIn the last 60 days or the upcoming 60 days, have you lost, or will you lose health insurance? *YesNoIncome SourceYour income is an important part of your application. Please provide all sources of income.No Income SourceAdd Income SourceContinue' or . = 'Personal Information* Required FieldsFirst Name *First Name *Middle NameMiddle NameLast Name *Last Name *Date of Birth *Date of Birth *Mobile NumberMobile NumberEmailEmailHospital Account RecordHospital Account RecordAdmittance DateAdmittance DateAre you a citizen of the USA? *Are you a citizen of the USA? *Gender *Gender *Are you currently pregnant? *Are you currently pregnant? *Current AddressAddress *Address *Apartment, Suite, Etc.Apartment, Suite, Etc.City *City *State *State *Zip Code *Zip Code *Additional InformationDo you currently have health insurance, including Medicare or Medicaid? *YesNoDoes this visit relate to an accident? *YesNoAre you currently incarcerated? *YesNoWere you ever in foster care? *YesNoIn the last 60 days or the upcoming 60 days, have you lost, or will you lose health insurance? *YesNoIncome SourceYour income is an important part of your application. Please provide all sources of income.No Income SourceAdd Income SourceContinue')]</value>
+      <webElementGuid>40d62caa-8ca8-4ef3-b53c-df8194bb62b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div[2]/form</value>
+      <webElementGuid>d042a202-59a1-43c1-abb7-4b7772d8a70c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send PURL'])[1]/following::form[1]</value>
+      <webElementGuid>78135732-545f-4496-820b-cf177874367e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::form[1]</value>
+      <webElementGuid>224fcf8b-4c17-4f52-b93a-879b0828c33c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>59a3e040-3950-49c0-85f2-85af26cc2de6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

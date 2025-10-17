@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AccidentTestCase_Yes_Work_Related</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8e4e8f88-e4af-4a55-a26d-3a32870751b0</testCaseGuid>
+</TestCaseEntity>

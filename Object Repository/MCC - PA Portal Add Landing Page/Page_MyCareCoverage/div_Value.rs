@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Value</name>
+   <tag></tag>
+   <elementGuidId>bca010d8-81a7-405f-a12c-a797de8dfe7b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiFormControl-root.MuiFormControl-fullWidth.MuiTextField-root.css-16pe6kk</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Value' or . = 'Value')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.MuiFormControl-root > .MuiAutocomplete-root > .MuiFormControl-root >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3eb8b346-b91a-4869-8cf2-cbef1541a05a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-16pe6kk</value>
+      <webElementGuid>a878674a-c41c-43df-9d83-056b2b95fa52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Value</value>
+      <webElementGuid>31da824b-9c39-46ac-aa21-f650cd345357</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:raq:&quot;)/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiDataGrid-paper css-9otb32&quot;]/div[@class=&quot;MuiDataGrid-panelWrapper css-1bvqkfl&quot;]/div[@class=&quot;MuiDataGrid-panelContent css-114z5og&quot;]/div[@class=&quot;MuiDataGrid-filterForm css-1ckupud&quot;]/div[@class=&quot;MuiFormControl-root MuiDataGrid-filterFormValueInput css-mrrqfy&quot;]/div[@class=&quot;MuiFormControl-root MuiFormControl-fullWidth css-v8c8y&quot;]/div[@class=&quot;MuiAutocomplete-root MuiAutocomplete-hasClearIcon MuiAutocomplete-hasPopupIcon css-f7t77y&quot;]/div[@class=&quot;MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-16pe6kk&quot;]</value>
+      <webElementGuid>5e616a11-12d3-4be7-be64-e6407c383a69</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Value' or . = 'Value')]</value>
+      <webElementGuid>3065bd25-40ac-4b6d-8f7a-7f0c205f90cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id=':raq:']/div/div[2]/div/div/div[5]/div/div/div</value>
+      <webElementGuid>9af2f708-15af-4c8a-8b05-bcc8a058bc1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='equals'])[1]/following::div[4]</value>
+      <webElementGuid>fc9919bc-4161-41d2-be78-2a2353d36459</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Operator'])[1]/following::div[6]</value>
+      <webElementGuid>45fee5c3-f6eb-4c3c-a436-c70773c4c973</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='And'])[2]/preceding::div[4]</value>
+      <webElementGuid>ff404cf9-ffe8-4e55-9769-15152227f26f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[5]/div/div/div</value>
+      <webElementGuid>b5b7436b-0ea5-491b-bd77-b9a6492919c7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

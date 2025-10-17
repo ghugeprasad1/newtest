@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_If there are none, click skip_rc-image-tile-44</name>
+   <tag></tag>
+   <elementGuidId>e200a2a7-3b7c-4661-a065-22659bcd608f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#13 > div.rc-image-tile-target > div.rc-image-tile-wrapper > img.rc-image-tile-44</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@src = 'https://www.google.com/recaptcha/api2/payload?p=06AFcWeA4lMw7TKUoYokZewMlIFOOpHH9l_R-UEpMTvKgENRw_ilc7Fn3qeIqT_PyfgIKVf2H1NyyyDUKdVVJWQY2JEiMQwhfg8Wf_7end1w1thcBRV01x0eblI8_pNEe6h8GGO9Aa3UQZJCrApTlQQkidseru-VFfrOTzVzKXGWl0twZX5zRXDMmW-Mx6_iMgYnr1x30DnS_NqcJr9G6Tlo-m8tPJR229ZXKB3rd79-_ZGTtrJbwie-g&amp;k=6LdPjuMpAAAAAK_PEU9NVRPuSvnIA61u7ruNLurJ']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[id=&quot;\31 3&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>05c359b6-555b-4407-b4fc-7cf50beec9a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rc-image-tile-44</value>
+      <webElementGuid>c0402c45-02e1-4bac-8b17-dba042214a59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://www.google.com/recaptcha/api2/payload?p=06AFcWeA4lMw7TKUoYokZewMlIFOOpHH9l_R-UEpMTvKgENRw_ilc7Fn3qeIqT_PyfgIKVf2H1NyyyDUKdVVJWQY2JEiMQwhfg8Wf_7end1w1thcBRV01x0eblI8_pNEe6h8GGO9Aa3UQZJCrApTlQQkidseru-VFfrOTzVzKXGWl0twZX5zRXDMmW-Mx6_iMgYnr1x30DnS_NqcJr9G6Tlo-m8tPJR229ZXKB3rd79-_ZGTtrJbwie-g&amp;k=6LdPjuMpAAAAAK_PEU9NVRPuSvnIA61u7ruNLurJ</value>
+      <webElementGuid>6f22b702-553c-45c8-bfb0-0e433b5b176f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;13&quot;)/div[@class=&quot;rc-image-tile-target&quot;]/div[@class=&quot;rc-image-tile-wrapper&quot;]/img[@class=&quot;rc-image-tile-44&quot;]</value>
+      <webElementGuid>c799060b-bafc-46a5-bd6f-3b415f4084e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/accvisit/Page_MyCareCoverage/iframe_html1body1div2div4iframe1_c-w2lq6orjlzi7</value>
+      <webElementGuid>3caa59ec-2b2d-4b03-941c-b412b946095e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://www.google.com/recaptcha/api2/payload?p=06AFcWeA4lMw7TKUoYokZewMlIFOOpHH9l_R-UEpMTvKgENRw_ilc7Fn3qeIqT_PyfgIKVf2H1NyyyDUKdVVJWQY2JEiMQwhfg8Wf_7end1w1thcBRV01x0eblI8_pNEe6h8GGO9Aa3UQZJCrApTlQQkidseru-VFfrOTzVzKXGWl0twZX5zRXDMmW-Mx6_iMgYnr1x30DnS_NqcJr9G6Tlo-m8tPJR229ZXKB3rd79-_ZGTtrJbwie-g&amp;k=6LdPjuMpAAAAAK_PEU9NVRPuSvnIA61u7ruNLurJ']</value>
+      <webElementGuid>e19ffb5a-b653-4277-bb2d-23af7e29f972</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//td[@id='13']/div/div/img</value>
+      <webElementGuid>64680fae-2409-4b56-8ced-9efe891837e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>(//img[contains(@src,'https://www.google.com/recaptcha/api2/payload?p=06AFcWeA4lMw7TKUoYokZewMlIFOOpHH9l_R-UEpMTvKgENRw_ilc7Fn3qeIqT_PyfgIKVf2H1NyyyDUKdVVJWQY2JEiMQwhfg8Wf_7end1w1thcBRV01x0eblI8_pNEe6h8GGO9Aa3UQZJCrApTlQQkidseru-VFfrOTzVzKXGWl0twZX5zRXDMmW-Mx6_iMgYnr1x30DnS_NqcJr9G6Tlo-m8tPJR229ZXKB3rd79-_ZGTtrJbwie-g&amp;k=6LdPjuMpAAAAAK_PEU9NVRPuSvnIA61u7ruNLurJ')])[14]</value>
+      <webElementGuid>489f7455-c552-4e3f-b43e-f15b5a845a02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[4]/td[2]/div/div/img</value>
+      <webElementGuid>a613acd1-14fd-40e2-8b0a-c139ec9bf04e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
