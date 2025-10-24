@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Did you lose your job in the last 6 months</name>
+   <tag></tag>
+   <elementGuidId>1ec33791-247d-4775-8c75-4453b354f028</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#lost-job-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id = 'lost-job-label' and (text() = 'Did you lose your job in the last 6 months? *' or . = 'Did you lose your job in the last 6 months? *')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Did you lose your job in the last 6 months? *&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>82e5d06a-c3ad-4206-a406-c604c6cdf021</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-88235q</value>
+      <webElementGuid>5ad4a134-610d-48ae-829d-b2fbd89dbf40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>lost-job-label</value>
+      <webElementGuid>6187e1a4-7b7d-4240-8b07-bb533f9dad28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Did you lose your job in the last 6 months? *</value>
+      <webElementGuid>5275b526-7eaf-4a39-94d3-06a89277ce23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lost-job-label&quot;)</value>
+      <webElementGuid>479cb5e2-4df3-4e58-831c-209e7c873beb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'lost-job-label' and (text() = 'Did you lose your job in the last 6 months? *' or . = 'Did you lose your job in the last 6 months? *')]</value>
+      <webElementGuid>97219bc5-e2b4-43a4-bbfe-44563aaf3241</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='lost-job-label']</value>
+      <webElementGuid>6e37942e-8723-45f1-89ca-28eebee195bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div[2]/form/div/div[3]/div/div[3]/div/label</value>
+      <webElementGuid>ad28e0c8-9651-431e-8881-4f860aba668e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Income Source'])[1]/following::label[1]</value>
+      <webElementGuid>ad71c2af-75c7-462e-bb60-05a4874c5d78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No Income Source'])[1]/following::label[1]</value>
+      <webElementGuid>48ec6247-9d18-4ff0-ac9e-75f943593e51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[5]/preceding::label[1]</value>
+      <webElementGuid>5bd4ab9c-0dd4-4213-872e-c3d68a6d9450</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[5]/preceding::label[2]</value>
+      <webElementGuid>a75b5579-cdbd-4d4f-a6b0-b368508b516d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Did you lose your job in the last 6 months?']/parent::*</value>
+      <webElementGuid>440c59df-133d-422f-baea-cf4ab7033509</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[3]/div/label</value>
+      <webElementGuid>5ada7946-3643-4625-969f-232da928e48b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

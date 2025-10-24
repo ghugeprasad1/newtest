@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_YesNo</name>
+   <tag></tag>
+   <elementGuidId>1cbe52ab-deaa-4ea8-8a9d-9e9ccf56f9b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiFormGroup-root.MuiFormGroup-row.MuiRadioGroup-root.MuiRadioGroup-row.css-51x0nr</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'YesNo' or . = 'YesNo')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Do you currently have health insurance, including Medicare or Medicaid? *&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cca732b1-39ab-4132-8ac0-0913a394c32b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiFormGroup-root MuiFormGroup-row MuiRadioGroup-root MuiRadioGroup-row css-51x0nr</value>
+      <webElementGuid>e21a71dd-8638-4ae1-873b-c0e8b5324377</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>radiogroup</value>
+      <webElementGuid>eef786c3-6f74-4168-ac2a-1f4b1b507b4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>has-insurance-label</value>
+      <webElementGuid>ec80465f-cee3-4508-b4b9-5b5486017f9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>YesNo</value>
+      <webElementGuid>442a823f-91e2-495c-925e-49e0a063556c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiBox-root css-101arav&quot;]/div[@class=&quot;MuiStack-root css-1phb13z&quot;]/form[1]/div[@class=&quot;MuiGrid-root MuiGrid-container css-19wgqq5&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1y0460w&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-oll7ag&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item css-tn3bmg&quot;]/div[@class=&quot;MuiFormControl-root css-acdgo6&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container css-vijzuy&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item css-1wxaqej&quot;]/div[@class=&quot;MuiFormGroup-root MuiFormGroup-row MuiRadioGroup-root MuiRadioGroup-row css-51x0nr&quot;]</value>
+      <webElementGuid>f21c5f0d-19f7-491c-bcaf-fe0764f27ed6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'YesNo' or . = 'YesNo')]</value>
+      <webElementGuid>f76464a6-123b-4329-9040-032da040efc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div[2]/form/div/div[2]/div/div/div/div/div/div</value>
+      <webElementGuid>8eb4fd9d-9a77-4533-816c-a97192737980</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Additional Information'])[1]/following::div[5]</value>
+      <webElementGuid>8e291547-c92a-41a7-bcab-923a0dad9e67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div</value>
+      <webElementGuid>aeba144d-32d1-48a4-b08a-4c149d74f73e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

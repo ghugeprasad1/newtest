@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_UsernameUsernamePasswordPasswordLogin</name>
+   <tag></tag>
+   <elementGuidId>da16d620-733d-42d2-8d80-8b07ae1a8454</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>form</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[(text() = 'Username *Username *Password *Password *Login' or . = 'Username *Username *Password *Password *Login')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Username *Username *Password *Password *Login&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+      <webElementGuid>77cacb84-8e4d-4540-9190-06380e06edf2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Username *Username *Password *Password *Login</value>
+      <webElementGuid>d1540da0-442e-4cab-b192-19762812c5d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiGrid-root MuiGrid-container css-17r26s3&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item css-f068ot&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-3qgq5l&quot;]/form[1]</value>
+      <webElementGuid>3f27869d-1829-42ad-8ad6-315cf80d7180</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//form[(text() = 'Username *Username *Password *Password *Login' or . = 'Username *Username *Password *Password *Login')]</value>
+      <webElementGuid>3968a5eb-3c21-4f33-b1c2-51a5cc68ba12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div[2]/form</value>
+      <webElementGuid>74772a12-324c-4b2b-8a5c-40ed51549a63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in to My Care Coverage'])[1]/following::form[1]</value>
+      <webElementGuid>4eb7dfcc-21e5-4742-9aa9-871633a461c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Authenticating...'])[1]/following::form[1]</value>
+      <webElementGuid>9a53a883-55c1-4547-9181-f84ff3f2bed6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>e1bb164c-512c-4035-85ea-efa64317caa4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

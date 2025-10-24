@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Add Patient Information - Household</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>51f75cac-9add-43e6-820c-398eac9d7ad5</testCaseGuid>
+</TestCaseEntity>

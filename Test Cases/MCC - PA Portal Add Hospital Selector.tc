@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MCC - PA Portal Add Hospital Selector</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>43472d50-3c3b-47dd-b89f-b3318e4a8d00</testCaseGuid>
+</TestCaseEntity>

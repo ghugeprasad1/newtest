@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Status</name>
+   <tag></tag>
+   <elementGuidId>9e425288-cc5d-4177-ab30-2988b7c058c9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiDataGrid-columnHeader.MuiDataGrid-columnHeader--sortable.MuiDataGrid-columnHeader--filtered.MuiDataGrid-withBorderColor > div.MuiDataGrid-columnHeaderDraggableContainer > div.MuiDataGrid-columnHeaderTitleContainer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'Status' or . = 'Status')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Status$/ >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>381e9feb-8dba-4a38-9f15-31596f52ae56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiDataGrid-columnHeaderTitleContainer</value>
+      <webElementGuid>861df1eb-27a8-4879-8922-ccfb31cd9574</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>9695a687-db39-4169-b98b-21f4bf9793c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Status</value>
+      <webElementGuid>bec17f78-9107-4209-8e58-7d98bf2def3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiBox-root css-101arav&quot;]/div[@class=&quot;MuiStack-root css-1phb13z&quot;]/div[@class=&quot;MuiBox-root css-pjtxm8&quot;]/div[@class=&quot;MuiDataGrid-root MuiDataGrid-root--densityStandard MuiDataGrid-root--noToolbar MuiDataGrid-withBorderColor css-1hfbr4x&quot;]/div[@class=&quot;MuiDataGrid-main css-1f0pawm&quot;]/div[@class=&quot;MuiDataGrid-virtualScroller MuiDataGrid-virtualScroller--hasScrollX css-2d5ulg&quot;]/div[@class=&quot;MuiDataGrid-topContainer MuiDataGrid-container--top css-b1wygl&quot;]/div[@class=&quot;MuiDataGrid-columnHeaders css-1t374vw&quot;]/div[@class=&quot;MuiDataGrid-row--borderBottom css-k008qs&quot;]/div[@class=&quot;MuiDataGrid-columnHeader MuiDataGrid-columnHeader--sortable MuiDataGrid-columnHeader--filtered MuiDataGrid-withBorderColor&quot;]/div[@class=&quot;MuiDataGrid-columnHeaderDraggableContainer&quot;]/div[@class=&quot;MuiDataGrid-columnHeaderTitleContainer&quot;]</value>
+      <webElementGuid>c9d2635f-b1bf-4719-8d5c-a334b44450bd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Status' or . = 'Status')]</value>
+      <webElementGuid>f802517d-e119-403d-860a-70508997cc8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[2]/div[2]/div/div/div[2]/div/div/div/div[11]/div/div</value>
+      <webElementGuid>8ff74fb7-dca1-4d9e-8978-228af823e03d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Client'])[1]/following::div[6]</value>
+      <webElementGuid>b4fcae35-25f1-4555-b525-63e20b9a5e58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date of Birth'])[1]/following::div[14]</value>
+      <webElementGuid>764c0159-7ff0-4ebb-871b-0cbbd2f8c126</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Progress'])[1]/preceding::div[7]</value>
+      <webElementGuid>b57e692c-d022-4a9d-8cb1-08290934d0b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/div/div</value>
+      <webElementGuid>406b1390-8839-4755-b611-21633351c5e4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

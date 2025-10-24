@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_No</name>
+   <tag></tag>
+   <elementGuidId>030257ea-0b05-444e-b7c4-daa1af7bfc51</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'No' or . = 'No')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;In the last 60 days or the upcoming 60 days, have you lost, or will you lose health insurance? *&quot;i >> internal:text=&quot;No&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0e5ac376-f556-434d-997f-f636d80bb3e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-1jpfdw9</value>
+      <webElementGuid>ad96b555-de44-46e9-b325-205b5049105e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No</value>
+      <webElementGuid>9d4a0e32-0a36-418a-a815-e5da98144725</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiBox-root css-101arav&quot;]/div[@class=&quot;MuiStack-root css-1phb13z&quot;]/form[1]/div[@class=&quot;MuiGrid-root MuiGrid-container css-19wgqq5&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1y0460w&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-oll7ag&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item css-tn3bmg&quot;]/div[@class=&quot;MuiFormControl-root css-acdgo6&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container css-vijzuy&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item css-1wxaqej&quot;]/div[@class=&quot;MuiFormGroup-root MuiFormGroup-row MuiRadioGroup-root MuiRadioGroup-row css-51x0nr&quot;]/label[@class=&quot;MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-1ewse24&quot;]/span[@class=&quot;MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-1jpfdw9&quot;]</value>
+      <webElementGuid>88893398-1553-4016-8b13-07936c98b115</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'No' or . = 'No')]</value>
+      <webElementGuid>8735439b-cbba-4382-bfad-89637091417f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div[2]/form/div/div[3]/div/div[5]/div/div/div/div/label[2]/span[2]</value>
+      <webElementGuid>7e306093-1695-42d7-9378-3c461e3ba0b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[5]/following::span[4]</value>
+      <webElementGuid>e95de8c3-81af-4c9c-b20b-0f120c79c957</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Income Source'])[1]/preceding::span[1]</value>
+      <webElementGuid>e111eb9e-81fd-40ce-a925-d81dd8a4d4f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No Income Source'])[1]/preceding::span[1]</value>
+      <webElementGuid>5deb5f75-e532-4018-9127-6bf0bac8eaf2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/div/label[2]/span[2]</value>
+      <webElementGuid>7667ddd6-9d6b-47a5-87ef-4eb1e4e91de8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

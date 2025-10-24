@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_No</name>
+   <tag></tag>
+   <elementGuidId>d5f61c0a-3774-4f97-aff4-2ecbfff85964</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[(text() = 'No' or . = 'No')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Did you lose your job in the last 6 months? *&quot;i >> label >> internal:has-text=&quot;No&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>c91e5c88-d77a-4812-bcee-52e2c188e0bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-1ewse24</value>
+      <webElementGuid>9a0722a9-1bac-4c83-b619-844cf1154a87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No</value>
+      <webElementGuid>568c08e8-5e96-4a8a-8121-46412380595f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiBox-root css-101arav&quot;]/div[@class=&quot;MuiStack-root css-1phb13z&quot;]/form[1]/div[@class=&quot;MuiGrid-root MuiGrid-container css-19wgqq5&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1y0460w&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-oll7ag&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item css-tn3bmg&quot;]/div[@class=&quot;MuiFormControl-root css-acdgo6&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container css-vijzuy&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item css-1wxaqej&quot;]/div[@class=&quot;MuiFormGroup-root MuiFormGroup-row MuiRadioGroup-root MuiRadioGroup-row css-51x0nr&quot;]/label[@class=&quot;MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-1ewse24&quot;]</value>
+      <webElementGuid>c5f380c0-138c-42ba-9422-8f5215ca5a4c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'No' or . = 'No')]</value>
+      <webElementGuid>3b7a63b7-5254-4470-baa0-138796a5e992</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div[2]/form/div/div[3]/div/div[3]/div/div/div/div/label[2]</value>
+      <webElementGuid>f4de5629-e0dc-449c-a2bc-4f7066523fb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[5]/following::label[1]</value>
+      <webElementGuid>be9b28d4-075d-4cff-af36-bc185435d2db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[2]/preceding::label[1]</value>
+      <webElementGuid>8c9dd71a-23d5-4845-86ec-97c19cd7ec35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[3]/div/div/div/div/label[2]</value>
+      <webElementGuid>3b9ee2e6-b366-48ef-abf0-9fb13e144c56</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
