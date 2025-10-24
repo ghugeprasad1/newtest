@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//label[@id='was-accident-reported-label']</value>
+         <value>//label[@id = 'was-accident-reported-label' and (text() = 'Has the accident been reported to the responsible party? *' or . = 'Has the accident been reported to the responsible party? *')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>fdef0ef7-3621-4449-9475-b26dacf41ae5</webElementGuid>
+      <webElementGuid>436dd8cd-4c01-41ce-b541-e127313656bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-88235q</value>
-      <webElementGuid>ff5bf6ce-ffb2-402f-9c08-b7865a80a3e9</webElementGuid>
+      <webElementGuid>b7a9519a-fd28-416f-a742-cde8669f2ab5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>was-accident-reported-label</value>
-      <webElementGuid>984f4559-edc7-4064-90ec-8cba4b60effa</webElementGuid>
+      <webElementGuid>e58ff286-7c0b-466d-b992-1c244485c081</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Has the accident been reported to the responsible party? *</value>
-      <webElementGuid>9f27a9d0-4b58-428c-bf76-5da58c10080a</webElementGuid>
+      <webElementGuid>a9476926-d3e9-4521-bdbd-2e2c039431bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,15 +61,23 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;was-accident-reported-label&quot;)</value>
-      <webElementGuid>d6f0c1fe-50f3-4736-9d04-ea1e9088f967</webElementGuid>
+      <webElementGuid>d8e2636a-5fc2-4a31-9615-c0880b3884bc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'was-accident-reported-label' and (text() = 'Has the accident been reported to the responsible party? *' or . = 'Has the accident been reported to the responsible party? *')]</value>
+      <webElementGuid>bd2cdc56-6631-482b-b62d-c0d941e1e26d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//label[@id='was-accident-reported-label']</value>
-      <webElementGuid>5aee8a44-900f-462b-9236-b3d8525385dd</webElementGuid>
+      <webElementGuid>e638c6ec-c079-4a26-aabf-9e1fb51eb71e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div[2]/form/div/div[2]/div/div/div[5]/div/label</value>
-      <webElementGuid>980adaeb-33e8-4fe1-9cc1-8fcce33b6730</webElementGuid>
+      <webElementGuid>55634736-c95d-4f92-8d80-dd6ee4c296e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/preceding::label[1]</value>
-      <webElementGuid>9c03e398-f1d3-4600-a18f-8499b12044d1</webElementGuid>
+      <webElementGuid>a4bae9af-ee95-4242-beb1-92e54419be8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::label[2]</value>
-      <webElementGuid>b5b2f1d2-4f40-4266-ab13-b7d4212be90c</webElementGuid>
+      <webElementGuid>4cc78722-cbf4-40cf-aa52-c0f792fa6c9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Has the accident been reported to the responsible party?']/parent::*</value>
-      <webElementGuid>74997835-b2b8-479b-9cac-8a27f2a1ce73</webElementGuid>
+      <webElementGuid>bf55dd77-0da4-4bbb-8a2e-a76181f34552</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,14 +117,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/label</value>
-      <webElementGuid>c6c4073f-fb7b-4a7d-b4c1-f40dbbfd858a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//label[@id = 'was-accident-reported-label' and (text() = 'Has the accident been reported to the responsible party? *' or . = 'Has the accident been reported to the responsible party? *')]</value>
-      <webElementGuid>338c1219-794c-49a6-84d6-47f3a2ba3c02</webElementGuid>
+      <webElementGuid>0182704a-0375-4f16-b423-cc19c56b394f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

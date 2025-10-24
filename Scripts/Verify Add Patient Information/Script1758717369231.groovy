@@ -20,6 +20,12 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 WebUI.callTestCase(findTestCase('Login MCC'), [:], FailureHandling.STOP_ON_FAILURE)
 
+// Helper method
+def scrollAndClick(TestObject to, int timeout = 5) {
+	WebUI.scrollToElement(to, timeout)
+	WebUI.click(to)
+}
+
 WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/div_Add Patient'))
 
 WebUI.setText(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/input_First Name_first'), 'Tester')
@@ -52,7 +58,7 @@ WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareC
 
 WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/li_Yes'))
 
-WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/div_Social Security Number'))
+//WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/div_Social Security Number'))
 
 WebUI.setText(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/input_Social Security Number_ssn-Wed Sep 24_1df0b7'), 
     '888-88-8888')
@@ -77,33 +83,33 @@ WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareC
 
 WebUI.setText(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/input_Zip Code_zip'), '88888')
 
-WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/label_Do you currently have health insuranc_53ac67'))
+// Health Insurance
+scrollAndClick(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/label_Do you currently have health insuranc_53ac67'))
+scrollAndClick(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/input_Yes_rm'))
 
-WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/input_Yes_rm'))
+// Accident related
+scrollAndClick(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/label_Does this visit relate to an accident'))
+scrollAndClick(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/input_Yes_rn'))
 
-WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/label_Does this visit relate to an accident'))
+// Incarcerated
+scrollAndClick(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/label_Are you currently incarcerated'))
+scrollAndClick(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/input_Yes_ro'))
 
-WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/input_Yes_rn'))
+// Foster care
+scrollAndClick(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/label_Were you ever in foster care'))
+scrollAndClick(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/input_Yes_rp'))
 
-WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/label_Are you currently incarcerated'))
+// Last 60 days / upcoming 6 months
+scrollAndClick(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/label_In the last 60 days or the upcoming 6_5b7b04'))
+scrollAndClick(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/input_Yes_rq'))
 
-WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/input_Yes_ro'))
+// Income Source
+scrollAndClick(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/div_Income SourceYour income is an importan_f6d6f4'))
+scrollAndClick(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/button_No Income Source'))
 
-WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/label_Were you ever in foster care'))
-
-WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/input_Yes_rp'))
-
-WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/label_In the last 60 days or the upcoming 6_5b7b04'))
-
-WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/input_Yes_rq'))
-
-WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/div_Income SourceYour income is an importan_f6d6f4'))
-
-WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/button_No Income Source'))
-
-WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/label_Did you lose your job in the last 6 months'))
-
-WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/input_Yes_ru'))
+// Job loss in last 6 months
+scrollAndClick(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/label_Did you lose your job in the last 6 months'))
+scrollAndClick(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/input_Yes_ru'))
 
 WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/button_Continue'))
 
@@ -113,23 +119,26 @@ WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareC
 
 WebUI.delay(4)
 
-/*WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/button_Sign Authorization Form'))
-
-WebUI.delay(4)
-
-WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/p_Clients Signature'))
-
-WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/canvas__sigPad'))
-
-WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/canvas__sigPad'))
-
-WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/button_Continue'))
-
-WebUI.delay(4)
-*/
 WebUI.click(findTestObject('Add Patient Information/Page_MyCareCoverage/button_Submit (1)'))
 
 WebUI.delay(4)
 
 WebUI.click(findTestObject('Object Repository/add patient test case/Page_MyCareCoverage/div_Submitted Information'))
 
+// Log step
+WebUI.comment('🔹 Verifying: No income sources selected message is displayed')
+
+// Create a TestObject for the overlay message
+TestObject noIncomeMessage = new TestObject('No_Income_Message')
+noIncomeMessage.addProperty('xpath', ConditionType.EQUALS, "//div[contains(@class,'MuiBox-root') and text()='No income sources have been selected by the individual.']")
+
+// Scroll to the element first
+WebUI.scrollToElement(noIncomeMessage, 5)
+
+// Wait for message to appear (up to 10 seconds)
+WebUI.waitForElementVisible(noIncomeMessage, 10)
+
+// Verify the message is present
+WebUI.verifyElementPresent(noIncomeMessage, 5)
+
+WebUI.comment('✅ Verified: "No income sources have been selected by the individual." message is displayed')

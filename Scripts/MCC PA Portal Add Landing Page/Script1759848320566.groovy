@@ -4,7 +4,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import com.kms.katalon.core.testobject.TestObject as TestObject
-
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
+import org.openqa.selenium.WebElement
 // Step 1: Login
 WebUI.callTestCase(findTestCase('Login MCC'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -84,52 +85,74 @@ WebUI.delay(2)
 // ---------- TILE 4: Not Completed Not Logged In ----------
 WebUI.comment('🔹 Verifying: Not Completed Not Logged In > Status = No Event')
 
+// Click the tab
 WebUI.click(findTestObject('landing page/Page_MyCareCoverage/p_Not Completed Not Logged In'))
 
-WebUI.delay(2)
+// Wait for table to load fully
+WebUI.delay(3)
 
+// Define a dynamic TestObject
 TestObject statusNoEvent = new TestObject('Status_NoEvent')
+statusNoEvent.addProperty('xpath', ConditionType.EQUALS, "//div[contains(@class,'MuiDataGrid-cell')]//*[normalize-space(text())='No Event']")
 
-statusNoEvent.addProperty('xpath', ConditionType.EQUALS, '//div[contains(@class,\'MuiDataGrid-cell\') and text()=\'No Event\']')
-
-WebUI.verifyElementPresent(statusNoEvent, 10, FailureHandling.STOP_ON_FAILURE)
+// Wait for the element to appear
+WebUI.waitForElementPresent(statusNoEvent, 15, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(statusNoEvent, 5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('✅ Verified: Status=No Event for Not Completed Not Logged In')
 
 // Go back to Dashboard
 WebUI.click(dashboardButton)
-
 WebUI.delay(2)
 
 // ---------- TILE 5: Closed Accounts ----------
 WebUI.comment('🔹 Verifying: Closed Accounts > Status = Do Not Contact / Exhausted / Duplicate')
 
+// Step 1: Click the Closed Accounts tile
 WebUI.click(findTestObject('landing page/Page_MyCareCoverage/p_Closed Accounts'))
 
+// Step 2: Wait for table to load (up to 15 seconds)
+TestObject tableObj = new TestObject('ClosedAccountsTable')
+tableObj.addProperty('xpath', ConditionType.CONTAINS, "MuiDataGrid")
+WebUI.waitForElementVisible(tableObj, 15)
 WebUI.delay(2)
 
-String[] closedStatuses = ['Do Not Contact', 'Exhausted', 'Duplicate']
+// Step 3: Get all visible cells in the Closed Accounts grid
+List<WebElement> allStatuses = WebUiCommonHelper.findWebElements(
+	new TestObject().addProperty('xpath', ConditionType.EQUALS, "//div[contains(@class,'MuiDataGrid-cell')]"),
+	10
+)
 
-boolean statusFound = false
+WebUI.comment("🔍 Found ${allStatuses.size()} cells in the Closed Accounts table")
 
-for (String status : closedStatuses) {
-    TestObject statusObj = new TestObject("Status_$status")
+// Step 4: Define expected statuses
+List<String> expectedStatuses = ['Do Not Contact', 'Exhausted', 'Duplicate']
 
-    statusObj.addProperty('xpath', ConditionType.EQUALS, "//div[contains(@class,'MuiDataGrid-cell') and text()='$status']")
+boolean found = false
 
-    if (WebUI.verifyElementPresent(statusObj, 5, FailureHandling.OPTIONAL)) {
-        WebUI.comment("✅ Verified: Status=$status for Closed Accounts")
+// Step 5: Loop through all cells and compare text
+for (WebElement cell : allStatuses) {
+	String cellText = cell.getText().trim()
+	WebUI.comment("➡️ Cell text: '${cellText}'")
 
-        statusFound = true
+	// Case-insensitive comparison
+	for (String status : expectedStatuses) {
+		if (cellText.equalsIgnoreCase(status)) {
+			WebUI.comment("✅ Verified: Found expected status = '${cellText}'")
+			found = true
+			break
+		}
+	}
 
-        break
-    }
+	if (found) break
 }
 
-if (!(statusFound)) {
-    WebUI.comment('❌ None of the expected statuses found: Do Not Contact, Exhausted, or Duplicate')
-
-    assert false : 'Closed Accounts validation failed'
+// Step 6: Final validation
+if (!found) {
+	WebUI.comment("❌ None of the expected statuses found: ${expectedStatuses}")
+	assert false : 'Closed Accounts validation failed'
+} else {
+	WebUI.comment("🎯 Closed Accounts validation successful.")
 }
 
 WebUI.takeScreenshot('Screenshots/Dashboard_Verification_Completed.png')

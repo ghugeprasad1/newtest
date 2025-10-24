@@ -142,11 +142,8 @@ WebUI.click(findTestObject('accvisit/Page_MyCareCoverage/label_Do you have an at
 
 TestObject radioNo = findTestObject('Object Repository/accvisit/Page_MyCareCoverage/radio_AttorneyInvolved_No')
 
-// Wait for the radio button to be visible and clickable
 WebUI.waitForElementVisible(radioNo, 10)
 WebUI.waitForElementClickable(radioNo, 10)
-
-// Click the "No" radio button
 WebUI.click(radioNo)
 
 WebUI.click(findTestObject('accvisit/Page_MyCareCoverage/div_Signature of Patient  Legal Representat_4d54af'))

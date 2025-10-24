@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//label[@id='was-claim-opened-label']</value>
+         <value>//label[@id = 'was-claim-opened-label' and (text() = concat(&quot;Has a claim been opened with responsible party&quot; , &quot;'&quot; , &quot;s insurance? *&quot;) or . = concat(&quot;Has a claim been opened with responsible party&quot; , &quot;'&quot; , &quot;s insurance? *&quot;))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>4ee6e0fa-f594-449b-baeb-40e13c053230</webElementGuid>
+      <webElementGuid>f161d525-429f-44bb-b733-de0b6d241ef8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiFormLabel-root MuiFormLabel-colorPrimary Mui-required css-88235q</value>
-      <webElementGuid>d5943f23-9a29-41fa-be75-4e626b664e77</webElementGuid>
+      <webElementGuid>7e483798-2b7a-4c08-978e-78f1eb407f3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>was-claim-opened-label</value>
-      <webElementGuid>783884f4-800e-4c92-a393-84fc9f53d6f9</webElementGuid>
+      <webElementGuid>26dcdc98-073b-4ed1-af7d-275dfd93b44c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Has a claim been opened with responsible party's insurance? *</value>
-      <webElementGuid>f6a12427-403a-4edf-96bf-7235ab2c7e7b</webElementGuid>
+      <webElementGuid>5d9e5ff4-111f-46ce-afcb-449c3f0d03b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,15 +61,23 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;was-claim-opened-label&quot;)</value>
-      <webElementGuid>70d401e4-787c-4750-9b42-ca7683180318</webElementGuid>
+      <webElementGuid>07d05f68-eb1b-4714-b059-5ac133ee1c62</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'was-claim-opened-label' and (text() = concat(&quot;Has a claim been opened with responsible party&quot; , &quot;'&quot; , &quot;s insurance? *&quot;) or . = concat(&quot;Has a claim been opened with responsible party&quot; , &quot;'&quot; , &quot;s insurance? *&quot;))]</value>
+      <webElementGuid>b3d807a2-9122-4b16-a38d-22f4c4f48104</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//label[@id='was-claim-opened-label']</value>
-      <webElementGuid>730329b4-1110-4227-be10-c87d76ec9d13</webElementGuid>
+      <webElementGuid>a3459545-9279-40c9-bd2f-b2a31cbf0738</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div[2]/form/div/div[2]/div/div/div[6]/div/label</value>
-      <webElementGuid>2b4e8af6-252f-4498-a6bc-834405c8f472</webElementGuid>
+      <webElementGuid>69c7c65a-35c7-45fa-87de-420830859732</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::label[1]</value>
-      <webElementGuid>cfe8498f-178f-43ee-bc21-3dd55d40377f</webElementGuid>
+      <webElementGuid>4c7aab82-b6b3-45bf-ad0a-e1ffd4ab5bc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/following::label[2]</value>
-      <webElementGuid>e4a440b8-7dcd-44a7-a80a-7f0917ee5b53</webElementGuid>
+      <webElementGuid>67e3cbe0-8fa8-4c56-b79e-9d9846b9a14c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[2]/preceding::label[1]</value>
-      <webElementGuid>d73a2bed-3f83-482b-a50b-fbb0e8b9cf30</webElementGuid>
+      <webElementGuid>b05f942d-e255-4834-9d4c-e7affbb2d77b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/preceding::label[2]</value>
-      <webElementGuid>1946154c-5e38-41a8-bf12-d7b67c3fb94b</webElementGuid>
+      <webElementGuid>5a305c20-8f3d-42cd-8a04-a4df2926466b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,14 +125,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/label</value>
-      <webElementGuid>a4444d7e-6596-4fb6-9f40-52513af4d958</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//label[@id = 'was-claim-opened-label' and (text() = concat(&quot;Has a claim been opened with responsible party&quot; , &quot;'&quot; , &quot;s insurance? *&quot;) or . = concat(&quot;Has a claim been opened with responsible party&quot; , &quot;'&quot; , &quot;s insurance? *&quot;))]</value>
-      <webElementGuid>0cde53e2-3462-4b5f-8c69-11ecb54e632b</webElementGuid>
+      <webElementGuid>a7a0ba2d-38d1-4f62-a181-84b085743cf3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>f0995779-4f05-4eaf-9e07-183704cac065</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//label[contains(., 'SSN') or contains(., 'Social Security')]/following::input[@type='text'][1]&#xd;
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id=':rt:']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>16e51a97-df1b-47a5-81a8-80a2b366ac70</webElementGuid>
+      <webElementGuid>a4b673cf-7ee9-46e2-8ce0-aa7826a1584f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>4544ad03-9316-4e70-ba0a-7720a438aadf</webElementGuid>
+      <webElementGuid>6bc6b68e-9509-4be5-b037-5d0a26d7013d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>:rt:-helper-text</value>
-      <webElementGuid>17d49fbd-1074-4898-bb2c-33bdb7ca2fe0</webElementGuid>
+      <webElementGuid>b9ea92c1-e598-4588-89f6-14422e9a2dbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>e3b1074e-1809-4ac1-9087-ccd92671070e</value>
-      <webElementGuid>0a04f58d-02f9-4f3b-b79b-f1b6b12d5b8b</webElementGuid>
+      <webElementGuid>778cccbf-7b9f-4194-93a3-25b47a85220f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>id</name>
       <type>Main</type>
       <value>:rt:</value>
-      <webElementGuid>242c2bc6-33c0-4838-99f6-1e754fd2a813</webElementGuid>
+      <webElementGuid>0e88fd7b-ecb1-462e-bee3-083022033806</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>name</name>
       <type>Main</type>
       <value>ssn-Wed Sep 24 2025 20:20:08 GMT+0530 (India Standard Time)</value>
-      <webElementGuid>0d9a9a19-ad8e-4901-85d0-f24f544a8476</webElementGuid>
+      <webElementGuid>a1624efe-7bf3-4175-916d-de7f56bf18f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>fdfed749-1221-43bf-b546-f7bce88d15d3</webElementGuid>
+      <webElementGuid>bfc72095-417c-4155-ab0f-26c023661ebb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedEnd css-b52kj1</value>
-      <webElementGuid>bb5481b0-8bfb-48f9-95a0-cdb54afd940d</webElementGuid>
+      <webElementGuid>d39b860a-0ee4-485e-b6b0-61fed794a937</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>value</name>
       <type>Main</type>
       <value>*</value>
-      <webElementGuid>0abfab74-a899-42b9-a707-f71d1fc790ef</webElementGuid>
+      <webElementGuid>94c99fdf-d8ae-4c6c-ad1e-0955bf8f8272</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;:rt:&quot;)</value>
-      <webElementGuid>4cce6c6f-967d-4f51-aabf-10f820518147</webElementGuid>
+      <webElementGuid>e04899f5-372e-4256-946a-50fb22072e25</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id=':rt:']</value>
-      <webElementGuid>a1db2dc3-c991-4754-a49f-e95e8298a7d6</webElementGuid>
+      <webElementGuid>d24ea41d-a3a9-4798-9b7d-5465e5ae1517</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div[2]/form/div/div/div/div/div[10]/div/div/input</value>
-      <webElementGuid>042eb4b0-5c26-4131-9bb8-aa8f4b07113a</webElementGuid>
+      <webElementGuid>bf5a3f25-c217-477f-9c22-237907659e94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[10]/div/div/input</value>
-      <webElementGuid>932aa779-9d5c-403b-a9b3-9550f2a3c4fd</webElementGuid>
+      <webElementGuid>2e2f1567-1aa6-4472-a140-81cbc9edef7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = ':rt:' and @name = 'ssn-Wed Sep 24 2025 20:20:08 GMT+0530 (India Standard Time)' and @type = 'text']</value>
-      <webElementGuid>f7400c36-deb1-46a5-a26c-972b8ad8f29f</webElementGuid>
+      <webElementGuid>fd9c0465-858a-46a5-af13-274ed65c9fa1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

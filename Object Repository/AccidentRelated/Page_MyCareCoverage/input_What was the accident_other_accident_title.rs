@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='other_accident_title']</value>
+         <value>//input[@id = 'other_accident_title' and @type = 'text']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>78a506df-0e1b-47af-a900-107a0b9c273e</webElementGuid>
+      <webElementGuid>aedff64b-ba67-45b0-b4ce-b88f5d35dfa7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>90cc0252-2c0b-40ab-8f60-9d53fdd08ff1</webElementGuid>
+      <webElementGuid>e62a99c0-98e5-451e-b8b6-d9ae679451a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>other_accident_title</value>
-      <webElementGuid>2b90e4e9-87a6-41e1-aff2-c23ed2af63b1</webElementGuid>
+      <webElementGuid>5ac8601a-0fdc-47cd-9a75-970cc301d480</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>b3baac54-0596-48fb-88d0-459124ad7b64</webElementGuid>
+      <webElementGuid>af70f885-6dcf-47c2-b31a-e59b0b61db9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedEnd css-b52kj1</value>
-      <webElementGuid>e0919e6f-e817-4398-b378-68a8f148fe99</webElementGuid>
+      <webElementGuid>5ece4155-6c75-49ec-b815-2452ecace953</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,15 +69,23 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;other_accident_title&quot;)</value>
-      <webElementGuid>5289254a-e1f7-47e2-b263-0b7f35e84f92</webElementGuid>
+      <webElementGuid>09358205-c8ba-4692-a5aa-eea6d52d4402</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'other_accident_title' and @type = 'text']</value>
+      <webElementGuid>5e820c8f-b2d2-477a-ab7c-c7a91ee65737</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='other_accident_title']</value>
-      <webElementGuid>7c9ddc51-9e5e-4e9a-9679-dfd5524e65a5</webElementGuid>
+      <webElementGuid>e3f9dc67-fe30-4c31-a8a3-af3328e44b00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div[2]/form/div/div/div/div[2]/div/input</value>
-      <webElementGuid>c7f17761-e4ec-4879-86d8-87ee32b02464</webElementGuid>
+      <webElementGuid>35b81e1e-abf2-4580-a148-7e3fad5d2c17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,14 +101,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/input</value>
-      <webElementGuid>e07bd14f-8262-49cd-bc1a-d753a5b486ba</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@id = 'other_accident_title' and @type = 'text']</value>
-      <webElementGuid>b2a59701-fff6-43fd-af4d-de9af0a80603</webElementGuid>
+      <webElementGuid>bd74db0e-3afb-4b6d-846b-1bcd8b30202e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

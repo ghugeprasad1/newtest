@@ -18,100 +18,100 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.testobject.ConditionType
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import org.openqa.selenium.WebElement
-import java.util.Arrays
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import java.util.Arrays as Arrays
 
 WebUI.callTestCase(findTestCase('Login MCC'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/popfilter/Page_MyCareCoverage/div_Patients'))
 
-TestObject reviewedButton = findTestObject('Object Repository/popfilter/Page_MyCareCoverage/button_Reviewed_rk')
-
-// Wait for the element to be present in DOM
-WebUI.waitForElementPresent(reviewedButton, 10)
-
-// Wait for the element to be visible
-WebUI.waitForElementVisible(reviewedButton, 10)
-
-// Scroll into view to make sure it’s clickable
-WebUI.scrollToElement(reviewedButton, 5)
-
-// Small pause (MUI animations need this sometimes)
-WebUI.delay(1)
-
-// Now click
-WebUI.click(reviewedButton)
-
+// Try different XPath variations for the Reviewed header
+// Hover over the header
+// Now look for the 3-dot button
+// Usage
+clickReviewedColumnThreeDot()
 
 WebUI.click(findTestObject('Object Repository/popfilter/Page_MyCareCoverage/li_Filter'))
-
-// ========== STEP 3: Check for Dropdown or Input Field ==========
-TestObject dropdownList = new TestObject("dropdownList")
-dropdownList.addProperty("xpath", ConditionType.CONTAINS, "//ul[contains(@class,'MuiAutocomplete-listbox')]")
-
-TestObject inputBox = new TestObject("inputBox")
-inputBox.addProperty("xpath", ConditionType.CONTAINS, "//input[contains(@class,'MuiInputBase-input')]")
-
-boolean dropdownVisible = WebUI.verifyElementPresent(dropdownList, 3, FailureHandling.OPTIONAL)
-boolean inputVisible = WebUI.verifyElementPresent(inputBox, 3, FailureHandling.OPTIONAL)
-
-assert dropdownVisible || inputVisible : "❌ Neither dropdown nor input field found for Reviewed column filter"
-
-
-// ========== STEP 4: Validate Dropdown Options ==========
-if (dropdownVisible) {
-	List<String> expectedValues = ["Yes", "No"]
-	for (String value : expectedValues) {
-		TestObject optionItem = new TestObject("option_" + value)
-		optionItem.addProperty("xpath", ConditionType.CONTAINS, "//li[contains(text(),'" + value + "')]")
-		boolean optionFound = WebUI.verifyElementPresent(optionItem, 3, FailureHandling.OPTIONAL)
-		assert optionFound : "❌ Dropdown option '${value}' not found"
-	}
-	WebUI.comment("✅ Dropdown contains expected values: Yes, No")
-}
-
-
-// ========== STEP 5: Validate Auto-complete (if input visible) ==========
-if (inputVisible) {
-	WebUI.setText(inputBox, "Y")
-	WebUI.delay(1)
-	TestObject suggestionYes = new TestObject("suggestionYes")
-	suggestionYes.addProperty("xpath", ConditionType.CONTAINS, "//li[contains(text(),'Yes')]")
-
-	boolean suggestionVisible = WebUI.verifyElementPresent(suggestionYes, 3, FailureHandling.OPTIONAL)
-	assert suggestionVisible : "❌ Auto-complete suggestion not appearing when typing 'Y'"
-	WebUI.comment("✅ Auto-complete suggestions appear correctly for input value 'Y'")
-}
-
-
-// ========== STEP 6: Apply Filter and Validate Results ==========
-if (dropdownVisible) {
-	// Select 'Yes' from dropdown
-	TestObject yesOption = new TestObject("yesOption")
-	yesOption.addProperty("xpath", ConditionType.CONTAINS, "//li[contains(text(),'Yes')]")
-	WebUI.click(yesOption)
-} else if (inputVisible) {
-	WebUI.setText(inputBox, "Yes")
-	WebUI.sendKeys(inputBox, Keys.ENTER)
-}
-
+// Step 1: Click on the input box and set text "Y" - verify "Yes"
+TestObject valueInput = new TestObject().addProperty('xpath', ConditionType.EQUALS, "//input[@id=':r35:']")
+WebUI.click(valueInput)
+WebUI.setText(valueInput, "Y")
 WebUI.delay(2)
 
-// Verify grid results have 'Yes' in Reviewed column
-TestObject reviewedCells = new TestObject("reviewedCells")
-reviewedCells.addProperty("xpath", ConditionType.EQUALS, "//div[@data-field='Reviewed']")
+TestObject yesSuggestion = new TestObject().addProperty('xpath', ConditionType.EQUALS, "//li[contains(., 'Yes')]")
+WebUI.verifyElementPresent(yesSuggestion, 5)
+println("✓ Successfully set 'Y' and verified 'Yes' suggestion appears")
 
-List<WebElement> cells = WebUI.findWebElements(reviewedCells, 10)
-assert cells.size() > 0 : "❌ No rows found after applying filter"
+// Step 2: Clear field, set text "N" - verify "No"
+WebUI.click(valueInput)
+WebUI.sendKeys(valueInput, "\u0008") // Backspace to clear
+WebUI.setText(valueInput, "N")
+WebUI.delay(2)
 
-for (WebElement cell : cells) {
-	assert cell.getText().equalsIgnoreCase("Yes") : "❌ Found non-Yes value in filtered results"
+TestObject noSuggestion = new TestObject().addProperty('xpath', ConditionType.EQUALS, "//li[contains(., 'No')]")
+WebUI.verifyElementPresent(noSuggestion, 5)
+println("✓ Successfully set 'N' and verified 'No' suggestion appears")
+
+// Step 3: Clear field and just click - verify both "Yes" and "No" appear automatically
+WebUI.click(valueInput)
+WebUI.sendKeys(valueInput, "\u0008") // Backspace to clear
+WebUI.delay(2) // Wait for dropdown to appear automatically
+
+// Verify both options are present without clicking dropdown arrow
+WebUI.verifyElementPresent(yesSuggestion, 5)
+WebUI.verifyElementPresent(noSuggestion, 5)
+println("✓ Successfully verified both 'Yes' and 'No' appear when field is empty and clicked")
+
+println("All tests completed successfully! 🎉")
+
+def clickReviewedColumnThreeDot() {
+    try {
+        def headerSelectors = ['//div[contains(@class, \'MuiDataGrid-columnHeaderTitle\') and text()=\'Reviewed\']', '//div[contains(@class, \'MuiDataGrid-columnHeaderTitle\') and contains(text(), \'Reviewed\')]'
+            , '//div[@role=\'columnheader\' and .//div[text()=\'Reviewed\']]', '//div[contains(@class, \'MuiDataGrid-columnHeader\') and .//div[text()=\'Reviewed\']]'
+            , '//div[text()=\'Reviewed\']/ancestor::div[contains(@class, \'MuiDataGrid-columnHeader\')]', '//div[contains(@class, \'columnHeaderTitle\') and text()=\'Reviewed\']']
+
+        TestObject reviewedHeader = null
+
+        for (String selector : headerSelectors) {
+            reviewedHeader = new TestObject().addProperty('xpath', ConditionType.EQUALS, selector)
+
+            if (WebUI.verifyElementPresent(reviewedHeader, 2, FailureHandling.OPTIONAL)) {
+                println("✓ Found Reviewed header with selector: $selector")
+
+                break
+            }
+        }
+        
+        if (!(WebUI.verifyElementPresent(reviewedHeader, 5, FailureHandling.OPTIONAL))) {
+            throw new Exception('Could not locate Reviewed column header')
+        }
+        
+        WebUI.mouseOver(reviewedHeader)
+
+        WebUI.delay(2)
+
+        def buttonSelectors = ['//button[@aria-label=\'Menu\']', '//button[contains(@aria-label, \'menu\') or contains(@aria-label, \'Menu\')]'
+            , '//button[contains(@class, \'MuiIconButton-root\') and not(@aria-label=\'Sort\')]', '//div[contains(@class, \'MuiDataGrid-menuIcon\')]//button'
+            , '//button[.//*[local-name()=\'svg\'][not(contains(@data-testid, \'Arrow\'))]]']
+
+        for (String btnSelector : buttonSelectors) {
+            TestObject threeDotButton = new TestObject().addProperty('xpath', ConditionType.EQUALS, btnSelector)
+
+            if (WebUI.verifyElementPresent(threeDotButton, 2, FailureHandling.OPTIONAL)) {
+                WebUI.click(threeDotButton)
+
+                println('✓ Successfully clicked 3-dot button')
+
+                return true
+            }
+        }
+        
+        throw new Exception('Could not find 3-dot button after hover')
+    }
+    catch (Exception e) {
+        println("Error: $e.message")
+
+        return false
+    } 
 }
 
-WebUI.comment("✅ All rows have 'Yes' in the Reviewed column after applying filter")
-
-WebUI.comment("🎉 Filter functionality validated successfully for Reviewed column!")

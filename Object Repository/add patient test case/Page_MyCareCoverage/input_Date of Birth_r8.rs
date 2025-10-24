@@ -6,12 +6,12 @@
    <elementGuidId>5677af07-3cd0-4706-9a59-e8075ebb0ca4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[@placeholder='MM/DD/YYYY' and @type='text']&#xd;
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id=':r8:']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>7f884452-488b-403f-893e-4e4eada71844</webElementGuid>
+      <webElementGuid>0d36615d-7995-4f02-a268-1cc0b6cb4e6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>495a57fd-db22-404d-8a01-30fdd1767587</webElementGuid>
+      <webElementGuid>305d30ea-a6ed-476f-86e0-98fd7edc3acf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>5ef25cd8-082d-4725-b568-23fdef110756</value>
-      <webElementGuid>3cdc86e1-cb33-4878-8f96-dee17b2e3932</webElementGuid>
+      <webElementGuid>008f2b80-ae40-4e65-b1f0-b522791a6cb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>id</name>
       <type>Main</type>
       <value>:r8:</value>
-      <webElementGuid>47e55d7b-e236-4f45-8e99-e270e315fd8b</webElementGuid>
+      <webElementGuid>e8a28575-d643-4830-8610-6aeac261f35c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>MM/DD/YYYY</value>
-      <webElementGuid>4008642b-a297-4aeb-aa1d-353c6bda52e3</webElementGuid>
+      <webElementGuid>c5d939e1-b49c-4a8a-9e2c-f70ac3d474e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>35c085a7-3935-427e-bd6e-021332cdb6af</webElementGuid>
+      <webElementGuid>e59639c8-6a44-4aa8-a8bb-0d6ab402a891</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>inputmode</name>
       <type>Main</type>
       <value>numeric</value>
-      <webElementGuid>0d661802-1c7e-4257-b035-0a3aae574be1</webElementGuid>
+      <webElementGuid>30d11a9b-ea44-4e6c-ab90-1bc5c096caa4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedEnd css-b52kj1</value>
-      <webElementGuid>d1c21c88-8113-4a7d-b522-7471ed08a180</webElementGuid>
+      <webElementGuid>ac46d1b6-a670-4793-a374-9049e5b2b812</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>value</name>
       <type>Main</type>
       <value>MM/DD/YYYY</value>
-      <webElementGuid>09825e39-a605-4e78-8ceb-065f6b7b93cd</webElementGuid>
+      <webElementGuid>23012036-5a81-44c4-a51f-fe738c2a058f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;:r8:&quot;)</value>
-      <webElementGuid>051bdf67-6def-40a2-a2b0-569207f36540</webElementGuid>
+      <webElementGuid>1c32187b-08ce-4222-8865-67890f603bad</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id=':r8:']</value>
-      <webElementGuid>0b9a60ad-64e9-435e-b05f-078b279463be</webElementGuid>
+      <webElementGuid>c7e3e2df-c77e-4e4b-a946-dca97a804e6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div[2]/form/div/div/div/div/div[4]/div/div/div/input</value>
-      <webElementGuid>c2f53429-e257-4374-9f66-f71a620d72b5</webElementGuid>
+      <webElementGuid>5f62c9fc-69fa-40f5-a896-d2280664b1f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div/input</value>
-      <webElementGuid>3bb23f4a-fe3a-43f2-8b29-59752e9f8849</webElementGuid>
+      <webElementGuid>1dc810d0-2123-4d60-b958-759f313ec54a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = ':r8:' and @placeholder = 'MM/DD/YYYY' and @type = 'text']</value>
-      <webElementGuid>386de4c4-c893-4ffd-9c44-550acf721267</webElementGuid>
+      <webElementGuid>4d288009-7409-4c88-9f73-0ae4fa5b7396</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

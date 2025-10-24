@@ -6,12 +6,13 @@
    <elementGuidId>c82054ce-3e00-410d-a28a-06fa4487934d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.MuiAutocomplete-root.Mui-expanded.MuiAutocomplete-hasClearIcon.css-f7t77y > div.MuiFormControl-root.MuiFormControl-fullWidth.MuiTextField-root.css-3naygg > div.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-sizeSmall.MuiInputBase-adornedEnd.MuiAutocomplete-inputRoot.css-y6nbpp</value>
+         <key>XPATH</key>
+         <value>//input[@id='gender' and @role='combobox']&#xd;
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div[3]/div[2]/form/div/div/div/div/div[11]/div/div/div</value>
+         <key>CSS</key>
+         <value>div.MuiAutocomplete-root.Mui-expanded.MuiAutocomplete-hasClearIcon.css-f7t77y > div.MuiFormControl-root.MuiFormControl-fullWidth.MuiTextField-root.css-3naygg > div.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-sizeSmall.MuiInputBase-adornedEnd.MuiAutocomplete-inputRoot.css-y6nbpp</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +30,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>3ca41da1-00f4-4fa3-a8ce-a28b5b25800e</webElementGuid>
+      <webElementGuid>9219339a-1003-4228-aa67-103bb8e56e9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-sizeSmall MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-y6nbpp</value>
-      <webElementGuid>3268bcf1-d110-413c-ba4d-6b81f1048997</webElementGuid>
+      <webElementGuid>51de3e3e-f765-457f-bd38-c1fe2deaffdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Gender *</value>
-      <webElementGuid>e4993df6-c7d4-4f57-97b9-81143b8808a3</webElementGuid>
+      <webElementGuid>58b37901-75e4-43cf-9248-9e0942af380e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;MuiBox-root css-101arav&quot;]/div[@class=&quot;MuiStack-root css-1phb13z&quot;]/form[1]/div[@class=&quot;MuiGrid-root MuiGrid-container css-19wgqq5&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1y0460w&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-oll7ag&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2.5 css-es6bie&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 css-2wqjbu&quot;]/div[@class=&quot;MuiAutocomplete-root Mui-expanded MuiAutocomplete-hasClearIcon css-f7t77y&quot;]/div[@class=&quot;MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-3naygg&quot;]/div[@class=&quot;MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-sizeSmall MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-y6nbpp&quot;]</value>
-      <webElementGuid>e92b09af-17df-4335-a934-374060f6e8ef</webElementGuid>
+      <webElementGuid>63b09c09-e8fe-46ec-ba0a-52072adf3275</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[3]/div[2]/form/div/div/div/div/div[11]/div/div/div</value>
-      <webElementGuid>c2ce6cec-da82-44f6-93d0-1a8971039a96</webElementGuid>
+      <webElementGuid>f902ec85-b99f-4381-9ece-ffe21953b29d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Address'])[1]/preceding::div[2]</value>
-      <webElementGuid>024c0be2-e976-475e-a1e1-20e857bb2055</webElementGuid>
+      <webElementGuid>fa28089c-38ad-4305-9754-a971b871fa21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[11]/div/div/div</value>
-      <webElementGuid>27872171-6f87-4245-a29e-331bd9a35cc2</webElementGuid>
+      <webElementGuid>8b630cc3-0e14-44db-8f13-23bac73c4eac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Gender *' or . = 'Gender *')]</value>
-      <webElementGuid>a1906828-a34a-454a-811d-154dbf7dd3e2</webElementGuid>
+      <webElementGuid>720b0b8f-979c-4b99-bee9-31d955b5cd9f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

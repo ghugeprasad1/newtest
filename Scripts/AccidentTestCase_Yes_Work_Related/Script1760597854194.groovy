@@ -114,27 +114,25 @@ WebUI.delay(4)
 
 WebUI.click(findTestObject('accvisit/Page_MyCareCoverage/div_Accident Type'))
 
-WebUI.click(findTestObject('accvisit/Page_MyCareCoverage/li_Auto'))
+WebUI.click(findTestObject('AccidentRelated/Page_MyCareCoverage/li_Work Related'))
 
-WebUI.click(findTestObject('accvisit/Page_MyCareCoverage/h3_Auto Accident Details'))
+WebUI.setText(findTestObject('Object Repository/accvisit/Page_MyCareCoverage/employer_name'), 'ABC Corp')
+WebUI.setText(findTestObject('Object Repository/accvisit/Page_MyCareCoverage/employer_address'), '123 Main Street')
+WebUI.setText(findTestObject('Object Repository/accvisit/Page_MyCareCoverage/employer_city'), 'Mumbai')
+WebUI.setText(findTestObject('Object Repository/accvisit/Page_MyCareCoverage/employer_zip'), '400001')
+WebUI.setText(findTestObject('Object Repository/accvisit/Page_MyCareCoverage/employer_phone'), '9876543210')
 
-WebUI.click(findTestObject('accvisit/Page_MyCareCoverage/div_Number of vehicles involvedNumber of ve_54872e'))
+WebUI.click(findTestObject('accvisit/Page_MyCareCoverage/div_Attorney InformationDo you have an atto_bf7361'))
 
-WebUI.click(findTestObject('accvisit/Page_MyCareCoverage/div_Number of vehicles involved'))
+WebUI.click(findTestObject('accvisit/Page_MyCareCoverage/label_Do you have an attorney involved for _8684dd'))
 
-WebUI.setText(findTestObject('accvisit/Page_MyCareCoverage/input_Number of vehicles involved_number_of_d95dc0'), '2')
+TestObject radioNo = findTestObject('Object Repository/accvisit/Page_MyCareCoverage/radio_AttorneyInvolved_No')
 
-WebUI.click(findTestObject('accvisit/Page_MyCareCoverage/div_Who was responsible for the accidentWho_d4ee59'))
+WebUI.waitForElementVisible(radioNo, 10)
 
-WebUI.click(findTestObject('accvisit/Page_MyCareCoverage/div_Who was responsible for the accident'))
+WebUI.waitForElementClickable(radioNo, 10)
 
-WebUI.setText(findTestObject('accvisit/Page_MyCareCoverage/input_Who was responsible for the accident__afa22a'), 'test')
-
-WebUI.click(findTestObject('accvisit/Page_MyCareCoverage/label_Were you the driver or a passenger'))
-
-WebUI.click(findTestObject('accvisit/Page_MyCareCoverage/label_Passenger'))
-
-WebUI.click(findTestObject('accvisit/Page_MyCareCoverage/input_Driver_r1s'))
+WebUI.click(radioNo)
 
 WebUI.click(findTestObject('accvisit/Page_MyCareCoverage/div_Signature of Patient  Legal Representat_4d54af'))
 
@@ -164,6 +162,7 @@ WebUI.delay(4)
 WebUI.click(findTestObject('Object Repository/accvisit/Page_MyCareCoverage/button_Continue_1'))
 
 WebUI.delay(4)
+
 WebUI.click(findTestObject('Object Repository/accvisit/Page_MyCareCoverage/button_Submit'))
 
 WebUI.delay(4)
@@ -175,7 +174,6 @@ if (accidentValue.equalsIgnoreCase('Yes')) {
 } else {
     WebUI.comment('❌ Relate to Accident: No')
 }
-
 
 def scrollAndClick(String objectPath) {
     TestObject obj = findTestObject(objectPath)
